@@ -61,12 +61,12 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: top
         title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
-        sub_title: M.S. Candidate in Computer Science, Advisor Prof. <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>
+        sub_title: M.S. Candidate in Computer Science, Advisor Prof. <a href="https://sites.google.com/site/wewantsj/">**Sung-Ju Lee**</a>
         caption: 2019.08 - Present
           
-      - layout: top-left
+      - layout: top
         title: <a href="https://eng.inha.ac.kr/eng/index.do">Inha University</a>, Republic of Korea
         sub_title: B.S. in Computer Science (Summa Cum Laude)
         caption: 2016.03 - 2019.08 (Early Graduation)
@@ -96,7 +96,7 @@ content:
         link_text: paper
         description: | # this will include new lines to allow paragraphs
           Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
-          <br>*IEEE Transactions on Mobile Computing (IEEE TMC) (Accepted).*
+          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**) (Accepted).*
         additional_links:
           - title:  Website
             icon: images/favicon.ico
