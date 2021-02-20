@@ -63,7 +63,7 @@ content:
     content:
       - layout: top
         title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
-        sub_title: M.S. Candidate in Computer Science, Advisor Prof. **<a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>**
+        sub_title: M.S. Candidate in Computer Science, Advisor &#58; Prof. <b><a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a></b>
         caption: 2019.08 - Present
           
       - layout: top
