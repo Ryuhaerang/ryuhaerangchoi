@@ -56,23 +56,6 @@ about_content: | # this will include new lines to allow paragraphs
   People today have mobile devices all the time, so these devices are the right platforms to create the system I want to build. So, I am interested in ubiquitous sensing with mobile devices and network-connected objects around us, mHealth which can be an accessible medical tool, and mHCI for valuable interaction between digital devices and people.
 
 content:
-  - title: Research Interests
-    layout: list
-    content:
-      - layout: right
-        title: Mobile HCI
-        sub_title: mHCI
-        description: | # this will include new lines to allow paragraphs
-          Human-computer interection (HCI) studies the interaction between humans and computers including both HW and SW. One of the objectives of mHCI is to build a mobile system to improve the quality of human life.
-      - layout: right
-        title: Ubiquotous Sensing
-        description: | # this will include new lines to allow paragraphs
-          Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
-      - layout: right
-        title: Mobile Health
-        sub_title: mHealth
-        description: |
-          Mobile healthcare industry has been in the limelight for years. mHealth is the term used for health-related service supported by mobile devices. The examples of mHealth applications are provision of medical information to patients, real-time monitoring of biometric signal, telemedicine, etc.
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -87,26 +70,6 @@ content:
           - title:  Website
             icon: fab fa-github
             url: https://nmsl.kaist.ac.kr/projects/metasense/
-  - title: Research Projects
-    layout: list
-    content:
-      - layout: right
-        title: Project title
-        sub_title: sub title
-        caption: caption
-        link: link
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
 
 
 # Footer
