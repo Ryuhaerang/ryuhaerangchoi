@@ -70,6 +70,27 @@ content:
         title: <a href="https://eng.inha.ac.kr/eng/index.do">Inha University</a>, Republic of Korea
         sub_title: B.S. in Computer Science (Summa Cum Laude)
         caption: 2016.03 - 2019.08 (Early Graduation)
+  
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+        link: https://nmsl.kaist.ac.kr/projects/metasense/
+        link_text: 🌐Website
+        description: | # this will include new lines to allow paragraphs
+          Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
+          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**) (Accepted).*
+        additional_links:
+          - title:  Website
+            url: https://nmsl.kaist.ac.kr/projects/metasense/
+  
+  - title: Latest News
+    layout: list
+    content: | # this will include new lines to allow paragraphs
+      **Dec 2020** SIGCHI CSCW Asia Winter School (AWS) 2020 on Dec 18-19.
+      **Aug 2020** Presentation at 2020 HCI@KAIST Summer Workshop
+
   - title: Research Interests
     layout: list
     content:
@@ -88,38 +109,19 @@ content:
         description: | # this will include new lines to allow paragraphs
           Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
 
-  - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top
-        title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
-        link: https://nmsl.kaist.ac.kr/projects/metasense/
-        link_text: 🌐Website
-        description: | # this will include new lines to allow paragraphs
-          Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
-          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**) (Accepted).*
-        additional_links:
-          - title:  Website
-            url: https://nmsl.kaist.ac.kr/projects/metasense/
-  - title: Research Projects
-    layout: list
-    content:
-      - layout: left
-        title: Project title
-        sub_title: sub title
-        caption: caption
-        link: link
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+#  - title: Research Projects
+#    layout: list
+#    content:
+#      - layout: left
+#        title: Project title
+#        sub_title: sub title
+#        caption: caption
+#        link: link
+#        quote: >
+#          Short description of the company (optional)
+#        description: | # this will include new lines to allow paragraphs
+#          Description
 
 # Footer
 footer_show_references: true
