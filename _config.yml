@@ -99,7 +99,7 @@ content:
           <br>*IEEE Transactions on Mobile Computing (IEEE TMC) (Accepted).*
         additional_links:
           - title:  Website
-            icon: 
+            icon: images/favicon.ico
             url: https://nmsl.kaist.ac.kr/projects/metasense/
   - title: Research Projects
     layout: list
