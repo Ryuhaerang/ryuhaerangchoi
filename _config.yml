@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Ryuhaerang Choi
-title: Ryuhaerang Choi
+title: Human Computer Interaction Researcher
 email: fkdfkd98@kaist.ac.kr
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -54,6 +54,21 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am Ryuhaerang Choi, a master student who aims for a system that can permeate people's daily lives and make life more prosperous. I am studying at the <a href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab</a> at KAIST.
   People today have mobile devices all the time, so these devices are the right platforms to create the system I want to build. So, I am interested in ubiquitous sensing with mobile devices and network-connected objects around us, mHealth which can be an accessible medical tool, and mHCI for valuable interaction between digital devices and people.
+
+content:
+  - title: Education
+        layout: list
+        content:
+          - layout: top-right
+            title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
+            sub_title: M.S. Candidate in Computer Science
+            caption: 2019.08 - Present
+            description: | # this will include new lines to allow paragraphs
+              Advisor: Prof. <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>
+          - layout: top-right
+            title: <a href="https://eng.inha.ac.kr/eng/index.do">Inha University</a>, Republic of Korea
+            sub_title: B.S. in Computer Science (Summa Cum Laude)
+            caption: 2016.03 - 2019.08 (Early Graduation)
 
 
 
