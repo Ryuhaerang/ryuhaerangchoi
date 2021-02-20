@@ -29,7 +29,7 @@ facebook_username: RyuhaerangChoi
 #linkedin_username:
 #xing_username:
 #pinterest_username:
-youtube_username: Ryuhaerang Choi
+#youtube_username: withSun
 #googleplus_username:
 #orcid_username:
 
@@ -91,7 +91,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top
-        title: "Adapting to Unknown Conditions in Learning-based Mobile Sensing"
+        title: &quot;Adapting to Unknown Conditions in Learning-based Mobile Sensing&quot;
         link: https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf
         link_text: paper
         description: | # this will include new lines to allow paragraphs
