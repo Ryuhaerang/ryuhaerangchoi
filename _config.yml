@@ -65,10 +65,6 @@ content:
             caption: 2019.08 - Present
             description: | # this will include new lines to allow paragraphs
               Advisor: Prof. <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>
-          - layout: top-right
-            title: <a href="https://eng.inha.ac.kr/eng/index.do">Inha University</a>, Republic of Korea
-            sub_title: B.S. in Computer Science (Summa Cum Laude)
-            caption: 2016.03 - 2019.08 (Early Graduation)
 
 
 
