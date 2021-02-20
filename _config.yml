@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: withSun/withSun.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -34,10 +34,10 @@ facebook_username: RyuhaerangChoi
 #orcid_username:
 
 # Additional icon links
-additional_links:
-- title: Networking and Mobile Sysmtems Lab (NMSL)
-  icon: 
-  url: https://nmsl.kaist.ac.kr
+#additional_links:
+#- title: Networking and Mobile Sysmtems Lab (NMSL)
+#  icon: 
+#  url: https://nmsl.kaist.ac.kr
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -53,7 +53,7 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am Ryuhaerang Choi, a master student who aims for a system that can permeate people's daily lives and make life more prosperous. I am studying at the <a href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab</a> at KAIST.
-  People today have mobile devices all the time, so these devices are the right platforms to create the system I want to build. So, I am interested in ubiquitous sensing with mobile devices and network-connected objects around us, mHealth which can be an accessible medical tool, and mHCI for valuable interaction between digital devices and people.
+  People today have mobile devices all the time, so these devices are the right platforms to create the system I want to build. So, I am interested in mHCI for valuable interaction between digital devices and people, mHealth which can be an accessible medical tool, and ubiquitous sensing with mobile devices and network-connected objects around us.
   - <a href="https://drive.google.com/file/d/1ga-54KU_h7bz6NE16qCDWBFeNl870XZe/view?usp=sharing">**Curriculum Vitae**</a>
 
 
@@ -79,14 +79,15 @@ content:
         description: | # this will include new lines to allow paragraphs
           Human-computer interection (HCI) studies the interaction between humans and computers including both HW and SW. One of the objectives of mHCI is to build a mobile system to improve the quality of human life.
       - layout: left
-        title: Ubiquotous Sensing
-        description: | # this will include new lines to allow paragraphs
-          Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
-      - layout: left
         title: Mobile Health
         sub_title: mHealth
         description: |
           Mobile healthcare industry has been in the limelight for years. mHealth is the term used for health-related service supported by mobile devices. The examples of mHealth applications are provision of medical information to patients, real-time monitoring of biometric signal, telemedicine, etc.
+      - layout: left
+        title: Ubiquotous Sensing
+        description: | # this will include new lines to allow paragraphs
+          Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
+
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
