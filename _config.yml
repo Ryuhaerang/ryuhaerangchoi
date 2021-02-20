@@ -23,7 +23,7 @@ darkmode: false
 github_username:  withSun
 #stackoverflow_username: ""
 #dribbble_username:
-facebook_username: 최류해랑
+facebook_username: https://www.facebook.com/profile.php?id=100041241786708
 #flickr_username:
 #instagram_username:
 #linkedin_username:
@@ -63,7 +63,7 @@ content:
     content:
       - layout: top
         title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
-        sub_title: M.S. Candidate in Computer Science, Advisor &#58; Prof. <b><a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a></b>
+        sub_title: M.S. Candidate in Computer Science, Advisor &#58; Prof. <a href="https://sites.google.com/site/wewantsj/"><b>Sung-Ju Lee</b></a>
         caption: 2019.08 - Present
           
       - layout: top
