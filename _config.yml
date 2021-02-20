@@ -109,7 +109,7 @@ content:
           Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
       - layout: right
         title: Laon
-        caption: Inha University's Startup Ideathon 2016
+        caption: Inha University's Startup Ideathon 2016 🏆
         description: |
           Laon is a pure Korean word meaning 'fun.' The Laon project was on display at Inha University's Startup Ideathon 2016 and won the **grand prize**. 
           The theme of Laon is educational VR content to overcome cultural differences between the two Koreas after reunification. 
@@ -118,7 +118,11 @@ content:
           The number of crimes arising from the failure to adapt to the strange environment in South Korea is also increasing. 
           Based on this situation, we predicted difficulties that would arise in social harmony and maladjustment to each other's culture after the two Koreas' reunification. 
           To solve this problem, we also designed educational VR content that allows people from each Korea to experience each other's culture. We showcased one sample content at the contest.
-
+      - layout: right
+        title: I’m finally in fairy tale!
+        caption: Capstone in Computer Scienc (B.S.)
+        description: |
+        
 #  - title: Research Projects
 #    layout: list
 #    content:
