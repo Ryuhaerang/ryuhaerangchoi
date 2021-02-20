@@ -63,7 +63,7 @@ content:
     content:
       - layout: top
         title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
-        sub_title: M.S. Candidate in Computer Science, Advisor Prof. <a href="https://sites.google.com/site/wewantsj/">**Sung-Ju Lee**</a>
+        sub_title: M.S. Candidate in Computer Science, Advisor Prof. **<a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>**
         caption: 2019.08 - Present
           
       - layout: top
@@ -99,7 +99,6 @@ content:
           <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**) (Accepted).*
         additional_links:
           - title:  Website
-            icon: images/favicon.ico
             url: https://nmsl.kaist.ac.kr/projects/metasense/
   - title: Research Projects
     layout: list
