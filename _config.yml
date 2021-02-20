@@ -70,7 +70,13 @@ content:
         title: <a href="https://eng.inha.ac.kr/eng/index.do">Inha University</a>, Republic of Korea
         sub_title: B.S. in Computer Science (Summa Cum Laude)
         caption: 2016.03 - 2019.08 (Early Graduation)
-  
+
+  - title: Latest News
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Dec 2020** SIGCHI CSCW Asia Winter School (AWS) 2020 on Dec 18-19.
+      **Aug 2020** Presentation at 2020 HCI@KAIST Summer Workshop
+
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -85,12 +91,6 @@ content:
           - title:  Website
             url: https://nmsl.kaist.ac.kr/projects/metasense/
   
-  - title: Latest News
-    layout: list
-    content: | # this will include new lines to allow paragraphs
-      **Dec 2020** SIGCHI CSCW Asia Winter School (AWS) 2020 on Dec 18-19.
-      **Aug 2020** Presentation at 2020 HCI@KAIST Summer Workshop
-
   - title: Research Interests
     layout: list
     content:
