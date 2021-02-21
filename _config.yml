@@ -111,7 +111,7 @@ content:
         title: Laon
         caption: Inha University's Startup Ideathon 2016 🏆
         description: |
-          Laon is a pure Korean word meaning 'fun.' The Laon project was on display at Inha University's Startup Ideathon 2016 and won the **grand prize**. 
+          Laon is a Korean word meaning 'fun.' The Laon project was on display at Inha University's Startup Ideathon 2016 and won the **grand prize**. 
           The theme of Laon is educational VR content to overcome cultural differences between the two Koreas after reunification. 
           The economic and cultural gap between North and South Korea is widening long after Korea has been divided. 
           In a survey of North Korean defectors, they revealed that they have difficulties in their daily lives despite being educated to settle well in South Korea. 
@@ -122,6 +122,7 @@ content:
         title: I’m finally in fairy tale!
         caption: Capstone in Computer Scienc (B.S.)
         description: |
+          
         
 #  - title: Research Projects
 #    layout: list
