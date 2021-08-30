@@ -52,7 +52,7 @@ facebook_username: RyuhaerangChoi
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am Ryuhaerang Choi, a master student who aims for a system that can permeate people's daily lives and make life more prosperous. I am studying at the <a href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab</a> at KAIST.
+  I am Ryuhaerang Choi, a Ph.D. student who aims for a system that can permeate people's daily lives and make life more prosperous. I am studying at the <a href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab</a> at KAIST.
   People today have mobile devices all the time, so these devices are the right platforms to create the system I want to build. So, I am interested in mHCI for valuable interaction between digital devices and people, mHealth which can be an accessible medical tool, and ubiquitous sensing with mobile devices and network-connected objects around us.
   - <a href="https://drive.google.com/file/d/1ga-54KU_h7bz6NE16qCDWBFeNl870XZe/view?usp=sharing">**Curriculum Vitae**</a>
 
