@@ -63,8 +63,13 @@ content:
     content:
       - layout: top
         title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
-        sub_title: M.S. Candidate in Computer Science, Advisor &#58; Prof. <a href="https://sites.google.com/site/wewantsj/"><b>Sung-Ju Lee</b></a>
-        caption: 2019.08 - Present
+        sub_title: Ph.D. Candidate in Electrical Engineering, Advisor &#58; Prof. <a href="https://sites.google.com/site/wewantsj/"><b>Sung-Ju Lee</b></a>
+        caption: 2021.08 - Present
+    
+      - layout: top
+        title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
+        sub_title: M.S. in Computer Science, Advisor &#58; Prof. <a href="https://sites.google.com/site/wewantsj/"><b>Sung-Ju Lee</b></a>
+        caption: 2019.08 - 2021.08
           
       - layout: top
         title: <a href="https://eng.inha.ac.kr/eng/index.do">Inha University</a>, Republic of Korea
@@ -87,6 +92,7 @@ content:
   - title: Latest News
     layout: text
     content: | # this will include new lines to allow paragraphs
+      **Jul 2021** Host 2021 HCI@KAIST Summer Workshop as a steering committee member on July 22.
       **Dec 2020** SIGCHI CSCW Asia Winter School (AWS) 2020 on Dec 18-19.
       <br>**Aug 2020** Presentation at 2020 HCI@KAIST Summer Workshop
   
