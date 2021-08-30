@@ -85,7 +85,7 @@ content:
         link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
           Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
-          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**) (Accepted).*
+          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
         additional_links:
           - title:  Website
             url: https://nmsl.kaist.ac.kr/projects/metasense/
