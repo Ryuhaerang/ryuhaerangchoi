@@ -58,6 +58,31 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
+  - title: Latest News
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Feb 2022** Student Volunteer at ACM TEI 2022.
+      <br>**Jan 2022** Host 2022 HCI@KAIST Winter Seminar as a Student Chair on Jan 21.
+      <br>**Dec 2021** Host 2021 Fall in HCI@KAIST as a Student Chair on Dec 3, 6, and 7.
+      <br>**Aug 2021** Continue my research as a Ph.D student in NMSL, KAIST.
+      <br>**Jul 2021** Host 2021 HCI@KAIST Summer Workshop as an Interactivity Chair on July 22.
+      <br>**Dec 2020** Presentation at SIGCHI CSCW Asia Winter School (AWS) 2020 on Dec 18-19.
+      <br>**Aug 2020** Presentation at 2020 HCI@KAIST Summer Workshop
+      
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+        link: https://nmsl.kaist.ac.kr/projects/metasense/
+        link_text: 🌐Website
+        description: | # this will include new lines to allow paragraphs
+          Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
+          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
+        additional_links:
+          - title:  Website
+            url: https://nmsl.kaist.ac.kr/projects/metasense/
+
   - title: Education
     layout: list
     content:
@@ -74,32 +99,7 @@ content:
       - layout: top
         title: <a href="https://eng.inha.ac.kr/eng/index.do">Inha University</a>, Republic of Korea
         sub_title: B.S. in Computer Science (Summa Cum Laude)
-        caption: 2016.03 - 2019.08 (Early Graduation)
-
-  - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top
-        title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
-        link: https://nmsl.kaist.ac.kr/projects/metasense/
-        link_text: 🌐Website
-        description: | # this will include new lines to allow paragraphs
-          Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
-          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
-        additional_links:
-          - title:  Website
-            url: https://nmsl.kaist.ac.kr/projects/metasense/
-  - title: Latest News
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      **Feb 2022** Student Volunteer at ACM TEI 2022.
-      <br>**Jan 2022** Host 2022 HCI@KAIST Winter Seminar as a Student Chair on Jan 21.
-      <br>**Dec 2021** Host 2021 Fall in HCI@KAIST as a Student Chair on Dec 3, 6, and 7.
-      <br>**Aug 2021** Continue my research as a Ph.D student in NMSL, KAIST.
-      <br>**Jul 2021** Host 2021 HCI@KAIST Summer Workshop as an Interactivity Chair on July 22.
-      <br>**Dec 2020** Presentation at SIGCHI CSCW Asia Winter School (AWS) 2020 on Dec 18-19.
-      <br>**Aug 2020** Presentation at 2020 HCI@KAIST Summer Workshop
-  
+        caption: 2016.03 - 2019.08 (Early Graduation)  
   - title: Research Interests and Projects
     layout: list
     content:
