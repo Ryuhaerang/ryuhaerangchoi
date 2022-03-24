@@ -69,20 +69,6 @@ content:
       <br>**Dec 2020** Presentation at SIGCHI CSCW Asia Winter School (AWS) 2020 on Dec 18-19.
       <br>**Aug 2020** Presentation at 2020 HCI@KAIST Summer Workshop
       
-  - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top
-        title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
-        link: https://nmsl.kaist.ac.kr/projects/metasense/
-        link_text: 🌐Website
-        description: | # this will include new lines to allow paragraphs
-          Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
-          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
-        additional_links:
-          - title:  Website
-            url: https://nmsl.kaist.ac.kr/projects/metasense/
-
   - title: Education
     layout: list
     content:
@@ -117,6 +103,25 @@ content:
         title: Ubiquotous Sensing
         description: | # this will include new lines to allow paragraphs
           Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
+
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+        link: https://nmsl.kaist.ac.kr/projects/metasense/
+        link_text: 🌐Website
+        description: | # this will include new lines to allow paragraphs
+          Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
+          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
+        additional_links:
+          - title:  Website
+            url: https://nmsl.kaist.ac.kr/projects/metasense/
+
+  - title: Academic Services
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Reviewer** ACM CSCW '22
 #      - layout: right
 #        title: Laon
 #        caption: Inha University's Startup Ideathon 2016 🏆
