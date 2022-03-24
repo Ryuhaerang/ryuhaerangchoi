@@ -86,23 +86,6 @@ content:
         title: <a href="https://eng.inha.ac.kr/eng/index.do">Inha University</a>, Republic of Korea
         sub_title: B.S. in Computer Science (Summa Cum Laude)
         caption: 2016.03 - 2019.08 (Early Graduation)  
-  - title: Research Interests and Projects
-    layout: list
-    content:
-      - layout: left
-        title: Mobile HCI
-        sub_title: mHCI
-        description: | # this will include new lines to allow paragraphs
-          Human-computer interection (HCI) studies the interaction between humans and computers including both HW and SW. One of the objectives of mHCI is to build a mobile system to improve the quality of human life.
-      - layout: left
-        title: Mobile Health
-        sub_title: mHealth
-        description: |
-          Mobile healthcare industry has been in the limelight for years. mHealth is the term used for health-related service supported by mobile devices. The examples of mHealth applications are provision of medical information to patients, real-time monitoring of biometric signal, telemedicine, etc.
-      - layout: left
-        title: Ubiquotous Sensing
-        description: | # this will include new lines to allow paragraphs
-          Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
 
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
@@ -122,6 +105,26 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       **Reviewer** ACM CSCW '22
+
+  - title: Research Interests and Projects
+    layout: list
+    content:
+      - layout: left
+        title: Mobile HCI
+        sub_title: mHCI
+        description: | # this will include new lines to allow paragraphs
+          Human-computer interection (HCI) studies the interaction between humans and computers including both HW and SW. One of the objectives of mHCI is to build a mobile system to improve the quality of human life.
+      - layout: left
+        title: Mobile Health
+        sub_title: mHealth
+        description: |
+          Mobile healthcare industry has been in the limelight for years. mHealth is the term used for health-related service supported by mobile devices. The examples of mHealth applications are provision of medical information to patients, real-time monitoring of biometric signal, telemedicine, etc.
+      - layout: left
+        title: Ubiquotous Sensing
+        description: | # this will include new lines to allow paragraphs
+          Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
+
+
 #      - layout: right
 #        title: Laon
 #        caption: Inha University's Startup Ideathon 2016 🏆
