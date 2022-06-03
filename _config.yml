@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Ryuhaerang Choi
-title: Human Computer Interaction Researcher <br>Research Interests: Digital Health, Mental Wellbeing, Interaction Design
+title: Human Computer Interaction Researcher
 email: ryuhaerang.choi@kaist.ac.kr
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -54,6 +54,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am Ryuhaerang Choi, a Ph.D. student who aims for a system that can permeate people's daily lives and make life more prosperous. I am studying at the <a href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab</a> at KAIST.
   People today have mobile devices all the time, so these devices are the right platforms to create the system I want to build. So, I am interested in mHCI for valuable interaction between digital devices and people, mHealth which can be an accessible medical tool, and ubiquitous sensing with mobile devices and network-connected objects around us.
+  <br>Research Interests: Digital Health, Mental Wellbeing, Interaction Design
   - <a href="https://drive.google.com/file/d/1ga-54KU_h7bz6NE16qCDWBFeNl870XZe/view?usp=sharing">**Curriculum Vitae**</a>
 
 
@@ -103,7 +104,11 @@ content:
         additional_links:
           - title:  Website
             url: https://nmsl.kaist.ac.kr/projects/metasense/
-
+    - layout: top
+        title: Posters, Demos, and Workshop Papers
+        subtitle: <a href="https://drive.google.com/file/d/19Kt15dDvdF7hzn8ugnFrlHNTvSbZ49Kr/view?usp=sharing">Demo: Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support</a>
+        description: **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
+        <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys**)*</br>
   - title: Academic Services
     layout: text
     content: | # this will include new lines to allow paragraphs
