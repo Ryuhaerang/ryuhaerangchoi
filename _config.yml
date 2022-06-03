@@ -94,6 +94,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top
+        title: **Conferences and Journals**
         title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
         link: https://nmsl.kaist.ac.kr/projects/metasense/
         link_text: 🌐Website
