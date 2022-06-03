@@ -90,8 +90,8 @@ content:
         sub_title: B.S. in Computer Science (Summa Cum Laude)
         caption: 2016.03 - 2019.08 (Early Graduation)  
 
-  - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
+  - layout: list # Type of content section (list/text)
+    title: Publications # Title for the section
     content:
       - layout: top
         title: Conferences and Journals
