@@ -93,26 +93,22 @@ content:
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - title: Conferences and Journals
-        layout: list
-        content:
-        - layout: top
-          title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
-          link: https://nmsl.kaist.ac.kr/projects/metasense/
-          link_text: 🌐Website
-          description: | # this will include new lines to allow paragraphs
-            Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
-            <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
-          additional_links:
-            - title:  Website
-              url: https://nmsl.kaist.ac.kr/projects/metasense/
-    - title: Posters, Demos, and Workshop Papers
-      layout: list 
-      content:
-        - layout: top
-          title: <a href="https://drive.google.com/file/d/19Kt15dDvdF7hzn8ugnFrlHNTvSbZ49Kr/view?usp=sharing">Demo: Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support</a>
-          description: **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
-          <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys**)*</br>
+      - layout: top
+        title: Conferences and Journals
+        title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+        link: https://nmsl.kaist.ac.kr/projects/metasense/
+        link_text: 🌐Website
+        description: | # this will include new lines to allow paragraphs
+          Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
+          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
+        additional_links:
+          - title:  Website
+            url: https://nmsl.kaist.ac.kr/projects/metasense/
+    - layout: top 
+      title: Posters, Demos, and Workshop Papers
+      title: <a href="https://drive.google.com/file/d/19Kt15dDvdF7hzn8ugnFrlHNTvSbZ49Kr/view?usp=sharing">Demo: Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support</a>
+      description: **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
+      <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys**)*</br>
           
   - title: Academic Services
     layout: text
