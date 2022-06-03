@@ -95,20 +95,22 @@ content:
     content:
       - layout: top
         title: Conferences and Journals
-        subtitle: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
-        link: https://nmsl.kaist.ac.kr/projects/metasense/
-        link_text: 🌐Website
-        description: | # this will include new lines to allow paragraphs
-          Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
-          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
-        additional_links:
-          - title:  Website
-            url: https://nmsl.kaist.ac.kr/projects/metasense/
+        - layout: list
+          title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+          link: https://nmsl.kaist.ac.kr/projects/metasense/
+          link_text: 🌐Website
+          description: | # this will include new lines to allow paragraphs
+            Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
+            <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
+          additional_links:
+            - title:  Website
+              url: https://nmsl.kaist.ac.kr/projects/metasense/
     - layout: top
         title: Posters, Demos, and Workshop Papers
-        subtitle: <a href="https://drive.google.com/file/d/19Kt15dDvdF7hzn8ugnFrlHNTvSbZ49Kr/view?usp=sharing">Demo: Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support</a>
-        description: **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
-        <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys**)*</br>
+        - layout: list
+          title: <a href="https://drive.google.com/file/d/19Kt15dDvdF7hzn8ugnFrlHNTvSbZ49Kr/view?usp=sharing">Demo: Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support</a>
+          description: **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
+          <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys**)*</br>
   - title: Academic Services
     layout: text
     content: | # this will include new lines to allow paragraphs
