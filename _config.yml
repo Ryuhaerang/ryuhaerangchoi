@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Ryuhaerang Choi
-title: Human Computer Interaction Researcher
+title: Human Computer Interaction Researcher <br>Research Interests: Digital Health, Mental Wellbeing, Interaction Design
 email: ryuhaerang.choi@kaist.ac.kr
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -93,7 +93,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top
-        title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+        title: Conferences and Journals
+        subtitle: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
         link: https://nmsl.kaist.ac.kr/projects/metasense/
         link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
@@ -102,29 +103,34 @@ content:
         additional_links:
           - title:  Website
             url: https://nmsl.kaist.ac.kr/projects/metasense/
-
+    - layout: top
+        title: Posters, Demos, and Workshop Papers
+        subtitle: <a href="https://drive.google.com/file/d/19Kt15dDvdF7hzn8ugnFrlHNTvSbZ49Kr/view?usp=sharing">Demo: Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support</a>
+        description: **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
+        <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys**)*</br>
   - title: Academic Services
     layout: text
     content: | # this will include new lines to allow paragraphs
       **Reviewer** ACM CSCW '22
+      **Steering Committee Member** KAIST ExploreCSR (sponsored by Google Research) 2022, HCI@KAIST 2021
 
-  - title: Research Interests and Projects
-    layout: list
-    content:
-      - layout: left
-        title: Mobile HCI
-        sub_title: mHCI
-        description: | # this will include new lines to allow paragraphs
-          Human-computer interection (HCI) studies the interaction between humans and computers including both HW and SW. One of the objectives of mHCI is to build a mobile system to improve the quality of human life.
-      - layout: left
-        title: Mobile Health
-        sub_title: mHealth
-        description: |
-          Mobile healthcare industry has been in the limelight for years. mHealth is the term used for health-related service supported by mobile devices. The examples of mHealth applications are provision of medical information to patients, real-time monitoring of biometric signal, telemedicine, etc.
-      - layout: left
-        title: Ubiquitous Sensing
-        description: | # this will include new lines to allow paragraphs
-          Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
+#  - title: Research Interests and Projects
+#    layout: list
+#    content:
+#      - layout: left
+#        title: Mobile HCI
+#        sub_title: mHCI
+#        description: | # this will include new lines to allow paragraphs
+#          Human-computer interection (HCI) studies the interaction between humans and computers including both HW and SW. One of the objectives of mHCI is to build a mobile system to improve the quality of human life.
+#      - layout: left
+#        title: Mobile Health
+#        sub_title: mHealth
+#        description: |
+#          Mobile healthcare industry has been in the limelight for years. mHealth is the term used for health-related service supported by mobile devices. The examples of mHealth applications are provision of medical information to patients, real-time monitoring of biometric signal, telemedicine, etc.
+#      - layout: left
+#        title: Ubiquitous Sensing
+#        description: | # this will include new lines to allow paragraphs
+#          Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
 
 
 #      - layout: right
