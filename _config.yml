@@ -26,7 +26,7 @@ github_username:  withSun
 facebook_username: RyuhaerangChoi
 #flickr_username:
 #instagram_username:
-#linkedin_username:
+linkedin_username: ryuhaerang-choi-75ba76233
 #xing_username:
 #pinterest_username:
 #youtube_username: withSun
@@ -97,7 +97,7 @@ content:
         title: Conferences and Journals
         
       - layout: top
-        title: <a href="https://taesikgong.com/paper/TMC21_MetaSense_preprint.pdf">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+        title: <a href="https://ieeexplore.ieee.org/abstract/document/9361223">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
         link: https://nmsl.kaist.ac.kr/projects/metasense/
         link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
@@ -111,7 +111,7 @@ content:
         title: Posters, Demos, and Workshop Papers
         
       - layout: top
-        title: <a href="https://drive.google.com/file/d/19Kt15dDvdF7hzn8ugnFrlHNTvSbZ49Kr/view?usp=sharing">&#34;Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support&#34;</a>
+        title: <a href="https://dl.acm.org/doi/10.1145/3498361.3538672">&#34;Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
           <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys**)*
@@ -120,7 +120,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       **Reviewer** ACM CSCW '22
-      <br>**Steering Committee Member** KAIST ExploreCSR (sponsored by Google Research) 2022, HCI@KAIST 2021
+      <br>**Steering Committee Member** <a href=https://womentechstars.github.io">KAIST ExploreCSR (sponsored by Google Research) 2022</a>, <a href="https://hci.kaist.ac.kr">HCI@KAIST 2021</a>
 
 #  - title: Research Interests and Projects
 #    layout: list
