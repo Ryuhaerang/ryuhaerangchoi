@@ -120,7 +120,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       **Reviewer** ACM CSCW '22
-      <br>**Steering Committee Member** <a href=https://womentechstars.github.io">KAIST ExploreCSR (sponsored by Google Research) 2022</a>, <a href="https://hci.kaist.ac.kr">HCI@KAIST 2021</a>
+      <br>**Steering Committee Member** <a href="https://womentechstars.github.io">KAIST ExploreCSR (sponsored by Google Research) 2022</a>, <a href="https://hci.kaist.ac.kr">HCI@KAIST 2021</a>
 
 #  - title: Research Interests and Projects
 #    layout: list
