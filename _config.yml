@@ -107,12 +107,12 @@ content:
 #           - title:
 #             url:
       - layout: top
-        title: &#34;You Are Not Alone: How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;
+        title: <a>&#34;You Are Not Alone: How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
         link: https://nmsl.kaist.ac.kr/projects/metasense/
         link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyunsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
-          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
+          <br>*ACM Conference On Computer-Supported Cooperative Work And Social Computing (**ACM CSCW 2022**)*
         additional_links:
           - title:  Website
             url: https://nmsl.kaist.ac.kr/projects/metasense/
