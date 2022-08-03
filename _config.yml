@@ -97,6 +97,12 @@ content:
         title: Conferences and Journals
         
       - layout: top
+        title: &#34;You Are Not Alone: How Trending Stress Topics Brought #Awareness and #Resonance on Campus&#34;<a>
+        description: | # this will include new lines to allow paragraphs
+          **Ryuhaerang Choi**, Chanwoo Yun, Hyunsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
+          <br>*ACM Conference On Computer-Supported Cooperative Work And Social Computing (**ACM CSCW 2022**)*
+        
+      - layout: top
         title: <a href="https://ieeexplore.ieee.org/abstract/document/9361223">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
         link: https://nmsl.kaist.ac.kr/projects/metasense/
         link_text: 🌐Website
