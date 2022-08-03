@@ -97,7 +97,7 @@ content:
         title: Conferences and Journals
         
 #       - layout: top
-#         title: &#34;You Are Not Alone: How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;
+#         title: &#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;
 #         link: 
 #         link_text:
 #         description: | # this will include new lines to allow paragraphs
@@ -107,7 +107,7 @@ content:
 #           - title:
 #             url:
       - layout: top
-        title: <a>&#34;You Are Not Alone: How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
+        title: &#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;
         link: https://nmsl.kaist.ac.kr/projects/metasense/
         link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
