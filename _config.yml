@@ -107,11 +107,11 @@ content:
 #           - title:
 #             url:
       - layout: top
-        title: <a href="https://ieeexplore.ieee.org/abstract/document/9361223">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+        title: &#34;You Are Not Alone: How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;
         link: https://nmsl.kaist.ac.kr/projects/metasense/
         link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
-          Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
+          **Ryuhaerang Choi**, Chanwoo Yun, Hyunsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
           <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
         additional_links:
           - title:  Website
