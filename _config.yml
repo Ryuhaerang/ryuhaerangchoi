@@ -97,7 +97,9 @@ content:
         title: Conferences and Journals
         
       - layout: top
-        title: &#34;You Are Not Alone: How Trending Stress Topics Brought #Awareness and #Resonance on Campus&#34;
+        title: &#34;You Are Not Alone: How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;
+        link: https://withsun.github.io
+        link_text: To be published
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyunsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
           <br>*ACM Conference On Computer-Supported Cooperative Work And Social Computing (**ACM CSCW 2022**)*
