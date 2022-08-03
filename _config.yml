@@ -96,17 +96,27 @@ content:
       - layout: top
         title: Conferences and Journals
         
+#       - layout: top
+#         title: &#34;You Are Not Alone: How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;
+#         link: 
+#         link_text:
+#         description: | # this will include new lines to allow paragraphs
+#           **Ryuhaerang Choi**, Chanwoo Yun, Hyunsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
+#           <br>*ACM Conference On Computer-Supported Cooperative Work And Social Computing (**ACM CSCW 2022**)*
+#         additional_links:
+#           - title:
+#             url:
       - layout: top
-        title: &#34;You Are Not Alone: How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;
-        link: 
-        link_text:
+        title: <a href="https://ieeexplore.ieee.org/abstract/document/9361223">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+        link: https://nmsl.kaist.ac.kr/projects/metasense/
+        link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
-          **Ryuhaerang Choi**, Chanwoo Yun, Hyunsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
-          <br>*ACM Conference On Computer-Supported Cooperative Work And Social Computing (**ACM CSCW 2022**)*
+          Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
+          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
         additional_links:
-          - title:
-            url:
-        
+          - title:  Website
+            url: https://nmsl.kaist.ac.kr/projects/metasense/
+
       - layout: top
         title: <a href="https://ieeexplore.ieee.org/abstract/document/9361223">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
         link: https://nmsl.kaist.ac.kr/projects/metasense/
