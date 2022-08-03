@@ -107,7 +107,7 @@ content:
 #           - title:
 #             url:
       - layout: top
-        title: &#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;
+        title: <a href="">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
         link: https://nmsl.kaist.ac.kr/projects/metasense/
         link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
