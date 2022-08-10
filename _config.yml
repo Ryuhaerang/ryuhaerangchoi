@@ -97,7 +97,7 @@ content:
         title: Conferences and Journals
         
       - layout: top
-        title: <a href="">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
+        title: <a href="https://drive.google.com/file/d/1-BiQoibFFH0jtwmgSL7ONO34qROucz1Q/view?usp=sharing">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
         link: 
         link_text: To be published.
         description: | # this will include new lines to allow paragraphs
@@ -111,9 +111,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
           <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
-        additional_links:
-          - title:  Website
-            url: https://nmsl.kaist.ac.kr/projects/metasense/
 
       - layout: top
         title: Posters, Demos, and Workshop Papers
