@@ -63,14 +63,14 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       **August 2022** Host 2022 Women Tech Stars Workshop as a Student Steering Committee member on Aug 26.
-      <br>**July 2022** Paper accepted at SIGCHI CSCW '22.
+      <br>**July 2022** Paper accepted at ACM SIGCHI CSCW '22.
       <br>**June 2022** Demo at ACM MobiSys '22.
       <br>**Feb 2022** Student Volunteer at ACM TEI 2022.
       <br>**Jan 2022** Host 2022 HCI@KAIST Winter Seminar as a Student Chair on Jan 21.
       <br>**Dec 2021** Host 2021 Fall in HCI@KAIST as a Student Chair on Dec 3, 6, and 7.
       <br>**Aug 2021** Continue my research as a Ph.D student in NMSL, KAIST.
       <br>**Jul 2021** Host 2021 HCI@KAIST Summer Workshop as an Interactivity Chair on July 22.
-      <br>**Fed 2021** Paper accepted at IEEE Transactions on Mobile Computing (TMC) '21
+      <br>**Fed 2021** Paper accepted at IEEE TMC '21
       <br>**Dec 2020** Presentation at SIGCHI CSCW Asia Winter School (AWS) 2020 on Dec 18-19.
       <br>**Aug 2020** Presentation at 2020 HCI@KAIST Summer Workshop.
       
@@ -100,8 +100,8 @@ content:
         
       - layout: top
         title: <a href="https://drive.google.com/file/d/1-BiQoibFFH0jtwmgSL7ONO34qROucz1Q/view?usp=sharing">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
-        link: 
-        link_text: To be published.
+        link: https://nmsl.kaist.ac.kr/projects/stresstrendmeter/
+        link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyunsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
           <br>*ACM Conference On Computer-Supported Cooperative Work And Social Computing (**ACM CSCW 2022**)*
