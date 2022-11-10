@@ -63,15 +63,16 @@ content:
   - title: Latest News
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **August 2022** Host 2022 Women Tech Stars Workshop as a Student Steering Committee member on Aug 26.
-      <br>**July 2022** Paper accepted at ACM SIGCHI CSCW '22.
-      <br>**June 2022** Demo at ACM MobiSys '22.
-      <br>**Feb 2022** Student Volunteer at ACM TEI 2022.
+      **Nov 2022** #StressTrendmeter Paper Presentation at CSCW '22.
+      <br>**Aug 2022** Host 2022 Women Tech Stars Workshop as a Student Steering Committee member on Aug 26.
+      <br>**July 2022** #StressTrendmeter Paper accepted at CSCW '22.
+      <br>**June 2022** #StressTrendmeter Demo at MobiSys '22.
+      <br>**Feb 2022** Student Volunteer at TEI 2022.
       <br>**Jan 2022** Host 2022 HCI@KAIST Winter Seminar as a Student Chair on Jan 21.
       <br>**Dec 2021** Host 2021 Fall in HCI@KAIST as a Student Chair on Dec 3, 6, and 7.
       <br>**Aug 2021** Continue my research as a Ph.D student in NMSL, KAIST.
       <br>**Jul 2021** Host 2021 HCI@KAIST Summer Workshop as an Interactivity Chair on July 22.
-      <br>**Feb 2021** Paper accepted at IEEE TMC '21
+      <br>**Feb 2021** MetaSense++ Paper accepted at IEEE TMC '21
       <br>**Dec 2020** Presentation at SIGCHI CSCW Asia Winter School (AWS) 2020 on Dec 18-19.
       <br>**Aug 2020** Presentation at 2020 HCI@KAIST Summer Workshop.
       
@@ -128,10 +129,10 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       **Reviewer** 
-      <br>ACM CSCW '22 '23
-      <br>ACM CHI '23
+      <br>CSCW '22 '23
+      <br>CHI '23
       <br>**Steering Committee Member**
-      <br><a href="https://womentechstars.github.io">KAIST ExploreCSR (sponsored by Google Research) 2022</a>, 
+      <br><a href="https://womentechstars.github.io">KAIST ExploreCSR (sponsored by Google Research) 2022</a> 
       <br><a href="https://hci.kaist.ac.kr">HCI@KAIST 2021</a>
 
 #  - title: Research Interests and Projects
