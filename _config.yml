@@ -1,5 +1,5 @@
 # Site
-repository: withSun/withSun.github.io
+repository: ryuhaerang.github.io/ryuhaerangchoi/
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -12,7 +12,7 @@ email: ryuhaerang.choi@kaist.ac.kr
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: https://withsun.github.io
+website: ryuhaerangchoi.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
   I am Ryuhaerang Choi, a Ph.D. student in <a href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab</a> at <a href="https://www.kaist.ac.kr/en/">KAIST</a>.
   My research interests are designing, building, and evaluating interactive systems that support mental health and well-being by encouraging individuals’ awareness and desirable behavior changes.
   My current focus is on understanding individuals' behaviors reflecting cognitive processes and mental status. I believe the knowledge informs the design of interventions and systems to alleviate tensions or challenges in mental well-being and facilitate positive behavior changes.
-  <br>Research Interests: Digital Health, Mental Wellbeing, Interaction Design
+  <br>Research Interests: Digital Health, Positive Computing, Interaction Design
   - <a href="https://drive.google.com/file/d/1ga-54KU_h7bz6NE16qCDWBFeNl870XZe/view?usp=sharing">**Curriculum Vitae**</a>
 
 
@@ -63,16 +63,16 @@ content:
   - title: Latest News
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Nov 2022** #StressTrendmeter Paper Presentation at CSCW '22.
+      **Feb 2023** Host 2023 Rising Stars Workshop as a Student Steering Committee member and Student MC on Feb 24.
+      <br>**Nov 2022** Paper Presentation (#StressTrendmeter) at CSCW '22.
+      <br>**Oct 2022** Paper (MetaSense++) published at IEEE TMC '22
       <br>**Aug 2022** Host 2022 Women Tech Stars Workshop as a Student Steering Committee member on Aug 26.
-      <br>**July 2022** #StressTrendmeter Paper accepted at CSCW '22.
-      <br>**June 2022** #StressTrendmeter Demo at MobiSys '22.
+      <br>**June 2022** Demo (#StressTrendmeter) at MobiSys '22.
       <br>**Feb 2022** Student Volunteer at TEI 2022.
       <br>**Jan 2022** Host 2022 HCI@KAIST Winter Seminar as a Student Chair on Jan 21.
-      <br>**Dec 2021** Host 2021 Fall in HCI@KAIST as a Student Chair on Dec 3, 6, and 7.
+      <br>**Dec 2021** Host 2021 Fall in HCI@KAIST as a Student Chair on Dec 3-7.
       <br>**Aug 2021** Continue my research as a Ph.D student in NMSL, KAIST.
       <br>**Jul 2021** Host 2021 HCI@KAIST Summer Workshop as an Interactivity Chair on July 22.
-      <br>**Feb 2021** MetaSense++ Paper accepted at IEEE TMC '21
       <br>**Dec 2020** Presentation at CSCW Asia Winter School (AWS) 2020 on Dec 18-19.
       <br>**Aug 2020** Presentation at 2020 HCI@KAIST Summer Workshop.
       
