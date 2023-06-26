@@ -53,8 +53,9 @@ linkedin_username: ryuhaerang-choi-75ba76233
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am Ryuhaerang Choi, a Ph.D. student in <a href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab</a> at <a href="https://www.kaist.ac.kr/en/">KAIST</a>.
-  My research interests are designing, building, and evaluating interactive systems that support mental health and well-being by encouraging individuals’ awareness and desirable behavior changes.
-  My current focus is on understanding individuals' behaviors reflecting cognitive processes and mental status. I believe the knowledge informs the design of interventions and systems to alleviate tensions or challenges in mental well-being and facilitate positive behavior changes.
+  My research centers around understanding individuals' behaviors reflecting cognitive processes and mental health. 
+  I develop intervention systems to address mental health challenges based on this understanding.
+  I aim to promote mental well-being and facilitate positive behavior changes through practical interventions, making a meaningful contribution towards building a healthier society.
   <br>Research Interests: Digital Health, Positive Computing, Interaction Design
   - <a href="https://drive.google.com/file/d/1ga-54KU_h7bz6NE16qCDWBFeNl870XZe/view?usp=sharing">**Curriculum Vitae**</a>
 
