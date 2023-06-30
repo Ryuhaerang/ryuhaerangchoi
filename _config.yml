@@ -96,6 +96,14 @@ content:
         sub_title: B.S. in Computer Science (Summa Cum Laude)
         caption: 2016.03 - 2019.08 (Early Graduation)  
 
+  - title: Work Experience
+    layout: list
+    content:
+      - layout: top
+        title: Device Intelligent Team at <a href="https://www.bell-labs.com/#gref">Nokia Bell Labs</a>, Cambridge, UK
+        sub_title: Research Intern
+        caption: 2023.07 - 2023.09
+
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
