@@ -52,8 +52,10 @@ linkedin_username: ryuhaerang-choi-75ba76233
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am Ryuhaerang Choi, a Ph.D. student in <a href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab</a> at <a href="https://www.kaist.ac.kr/en/">KAIST</a>.
-  My research centers around understanding individuals' behaviors reflecting cognitive processes and mental health. 
+  I am Ryuhaerang Choi, a Ph.D. student in <a href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab</a> at <a href="https://www.kaist.ac.kr/en/">KAIST</a>, advised by Prof. <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>.
+  From July 2023, I have been working as a research intern at <a href="https://www.bell-labs.com/#gref">Nokia Bell Labs</a> under <a href="https://sites.google.com/view/sjitiit/home">Dr. Soumyajit Chatterjee's</a> mentorship.
+  
+  <br>My research centers around understanding individuals' behaviors reflecting cognitive processes and mental health. 
   I develop intervention systems to address mental health challenges based on this understanding.
   I aim to promote mental well-being and facilitate positive behavior changes through practical interventions, making a meaningful contribution towards building a healthier society.
   <br>Research Interests: Digital Health, Positive Computing, Interaction Design
@@ -100,7 +102,7 @@ content:
     layout: list
     content:
       - layout: top
-        title: Device Intelligent Team at <a href="https://www.bell-labs.com/#gref">Nokia Bell Labs</a>, Cambridge, UK
+        title: Device Intelligence Team at <a href="https://www.bell-labs.com/#gref">Nokia Bell Labs</a>, Cambridge, UK
         sub_title: Research Intern
         caption: 2023.07 - 2023.09
 
