@@ -106,9 +106,26 @@ content:
         sub_title: Research Intern
         caption: 2023.07 - 2023.09
 
+
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top
+        title: Preprints
+
+      - layout: top
+        title: Content Moderation for Eating Disorders on Personal Devices
+        description: | 
+          **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
+          <br>(in submission)
+
+      - layout: top
+        title: <a href="http://arxiv.org/abs/2311.05920">Understanding How People with Binge Eating Disorder and Bulimia Interact with Digital Food Content</a>
+        description: | 
+          **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
+          <br>arxiv
+        
+    
       - layout: top
         title: Conferences and Journals
         
