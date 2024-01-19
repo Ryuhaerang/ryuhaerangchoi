@@ -66,7 +66,8 @@ content:
   - title: Latest News
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Jul 2023** Research internship at Nokia Bell Labs, Cambridge, UK on Jul-Sep
+      **Jan 2024** Paper (FoodCensor) accepted at CHI '24
+      <br>**Jul 2023** Research internship at Nokia Bell Labs, Cambridge, UK on Jul-Sep
       <br>**Feb 2023** Student Chair at 2023 Rising Stars Workshop on Feb 24
       <br>**Nov 2022** Paper Presentation (#StressTrendmeter) at CSCW '22
       <br>**Oct 2022** Paper (MetaSense++) published at IEEE TMC '22
@@ -114,12 +115,6 @@ content:
         title: Preprints
 
       - layout: top
-        title: Content Moderation for Eating Disorders on Personal Devices
-        description: | 
-          **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
-          <br>(in submission)
-
-      - layout: top
         title: <a href="http://arxiv.org/abs/2311.05920">&#34;Understanding How People with Binge Eating Disorder and Bulimia Interact with Digital Food Content&#34;</a>
         description: | 
           **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
@@ -128,6 +123,12 @@ content:
     
       - layout: top
         title: Conferences and Journals
+
+      - layout: top
+        title: <a href="https://drive.google.com/file/d/1FwvhBpj6P_zRGltLUFfIUL3TAm9pPV9U/view?usp=sharing">Promoting Mindful Digital Food Content Consumption for People with Eating Disorders</a>
+        description: | 
+          **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
+          <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2024**)* (to appear)
         
       - layout: top
         title: <a href="https://dl.acm.org/doi/10.1145/3555612">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
