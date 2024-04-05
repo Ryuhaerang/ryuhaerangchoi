@@ -153,7 +153,7 @@ content:
         title: Posters, Demos, and Workshop Papers
 
       - layout: top
-        title: <a href="">&#34;Pushing the Decision Boundaries&#58; Discovering New Classes in Audio Data&#34;</a>
+        title: <a href="https://drive.google.com/file/d/1RBxXxV2ChR8s96PqDFKM8ikxXb3aUhdq/view?usp=share_link">&#34;Pushing the Decision Boundaries&#58; Discovering New Classes in Audio Data&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Fahim Kawsar, and Mohammad Malekzadeh
           <br>*ICLR 2024 &#45; Data-centric Machine Learning Research (DMLR) Workshop, 2024*
