@@ -66,14 +66,15 @@ content:
   - title: Latest News
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Mar 2024** Paper Accepted at ICLR Workshop '24
-      <br>**Jan 2024** Paper (FoodCensor) Accepted at CHI '24
+      **May 2024** FoodCensor Won a Best Paper Honorable Mention at CHI'24
+      <br>**Mar 2024** Paper Accepted at ICLR Workshop'24
+      <br>**Jan 2024** Paper (FoodCensor) Accepted at CHI'24
       <br>**Jul 2023** Research internship at Nokia Bell Labs, Cambridge, UK on Jul-Sep
       <br>**Feb 2023** Student Chair at 2023 Rising Stars Workshop on Feb 24
-      <br>**Nov 2022** Paper Presentation (#StressTrendmeter) at CSCW '22
-      <br>**Oct 2022** Paper (MetaSense++) published at IEEE TMC '22
+      <br>**Nov 2022** Paper Presentation (#StressTrendmeter) at CSCW'22
+      <br>**Oct 2022** Paper (MetaSense++) published at IEEE TMC'22
       <br>**Aug 2022** Student Steering Committee at 2022 Women Tech Stars Workshop on Aug 26
-      <br>**June 2022** Demo (#StressTrendmeter) at MobiSys '22
+      <br>**June 2022** Demo (#StressTrendmeter) at MobiSys'22
       <br>**Feb 2022** Student Volunteer at TEI 2022
       <br>**Jan 2022** Student Chair at 2022 HCI@KAIST Winter Seminar on Jan 21
       <br>**Dec 2021** Student Chair at 2021 Fall in HCI@KAIST on Dec 3-7
@@ -127,14 +128,14 @@ content:
 
       - layout: top
         title: <a href="https://drive.google.com/file/d/1FwvhBpj6P_zRGltLUFfIUL3TAm9pPV9U/view?usp=sharing">&#34;FoodCensor&#58; Promoting Mindful Digital Food Content Consumption for People with Eating Disorders&#34;</a>
-        link: https://github.com/Ryuhaerang/FoodCensor
-        link_text: 👩🏻‍💻GitHub
+        link: https://nmsl.kaist.ac.kr/projects/foodcensor/
+        link_text: 🌐Website
         description: | 
           **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
           <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2024**)* (Acceptance Rate: 26.3%) (to appear)
         
       - layout: top
-        title: <a href="https://dl.acm.org/doi/10.1145/3555612">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
+        title: <a href="https://drive.google.com/file/d/1-BiQoibFFH0jtwmgSL7ONO34qROucz1Q/view?usp=sharing">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
         link: https://nmsl.kaist.ac.kr/projects/stresstrendmeter/
         link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
@@ -142,7 +143,7 @@ content:
           <br>*ACM Conference on Computer-Supported Cooperative Work and Social Computing (**ACM CSCW 2022**)*
 
       - layout: top
-        title: <a href="https://ieeexplore.ieee.org/abstract/document/9361223">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+        title: <a href="https://drive.google.com/file/d/1kuMuNo6f0fggTSJfrjq_RozK192MHpUD/view?usp=sharing">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
         link: https://nmsl.kaist.ac.kr/projects/metasense/
         link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
@@ -153,13 +154,13 @@ content:
         title: Posters, Demos, and Workshop Papers
 
       - layout: top
-        title: <a href="https://drive.google.com/file/d/1RBxXxV2ChR8s96PqDFKM8ikxXb3aUhdq/view?usp=share_link">&#34;Pushing the Decision Boundaries&#58; Discovering New Classes in Audio Data&#34;</a>
+        title: <a href="https://drive.google.com/file/d/17iq_qG2wQQ954OkJL3FFBXJ5gkXKp0rW/view?usp=sharing">&#34;Pushing the Decision Boundaries&#58; Discovering New Classes in Audio Data&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Fahim Kawsar, and Mohammad Malekzadeh
           <br>*ICLR 2024 &#45; Data-centric Machine Learning Research (DMLR) Workshop, 2024*
       
       - layout: top
-        title: <a href="https://dl.acm.org/doi/10.1145/3498361.3538672">&#34;Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support&#34;</a>
+        title: <a href="https://drive.google.com/file/d/19Kt15dDvdF7hzn8ugnFrlHNTvSbZ49Kr/view?usp=sharing">&#34;Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
           <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys 2022**)*
