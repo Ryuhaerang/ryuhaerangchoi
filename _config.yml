@@ -122,11 +122,6 @@ content:
           **Ryuhaerang Choi**, Taehan Kim, Subin Park, Jennifer G. Kim, and Sung-Ju Lee
           <br>In Submission
       - layout: top
-        title: <a href="https://arxiv.org/abs/2410.23008">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
-        description: | 
-          **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Sung-Ju Lee, Fahim Kawsar, and Mohammad Malekzadeh
-          <br>In Submission
-      - layout: top
         title: <a href="http://arxiv.org/abs/2311.05920">&#34;Feeding the Crave&#58; How People with Eating Disorders Get Trapped in the Perpetual Cycle of Digital Food Content&#34;</a>
         description: | 
           **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
@@ -137,6 +132,13 @@ content:
       - layout: top
         title: Conferences and Journals
 
+      - layout: top
+        title: <a href="https://arxiv.org/abs/2410.23008">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
+        description: | 
+          **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Sung-Ju Lee, Fahim Kawsar, and Mohammad Malekzadeh
+          <br>*International Conference on Acoustics, Speech, & Signal Processing (**ICASSP 2025**)*
+          <br>To Appear
+          
       - layout: top
         title: <a href="https://drive.google.com/file/d/1FwvhBpj6P_zRGltLUFfIUL3TAm9pPV9U/view?usp=sharing">&#34;FoodCensor&#58; Promoting Mindful Digital Food Content Consumption for People with Eating Disorders&#34;</a>
         link: https://nmsl.kaist.ac.kr/projects/foodcensor/
