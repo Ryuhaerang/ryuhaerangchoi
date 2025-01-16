@@ -119,23 +119,21 @@ content:
     content:
       - layout: top
         title: Preprints
-
-      - layout: top
-        title: <a href="https://arxiv.org/pdf/2412.11656">&#34;Private Yet Social&#58; How LLM Chatbots Support and Challenge Eating Disorder Recovery&#34;</a>
-        description: | 
-          **Ryuhaerang Choi**, Taehan Kim, Subin Park, Jennifer G. Kim, and Sung-Ju Lee
-          <br>In Submission
       - layout: top
         title: <a href="http://arxiv.org/abs/2311.05920">&#34;Feeding the Crave&#58; How People with Eating Disorders Get Trapped in the Perpetual Cycle of Digital Food Content&#34;</a>
         description: | 
           **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
           <br>arXiv
 
-        
-    
       - layout: top
         title: Conferences and Journals
-
+      - layout: top
+        title: <a href="https://arxiv.org/pdf/2412.11656">&#34;Private Yet Social&#58; How LLM Chatbots Support and Challenge Eating Disorder Recovery&#34;</a>
+        description: | 
+          **Ryuhaerang Choi**, Taehan Kim, Subin Park, Jennifer G. Kim, and Sung-Ju Lee
+          <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2025**)* (Acceptance Rate: 25.1%)
+          <br>To Appear
+          
       - layout: top
         title: <a href="https://arxiv.org/abs/2410.23008">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
         description: | 
