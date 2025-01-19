@@ -139,7 +139,7 @@ content:
         title: <a href="https://arxiv.org/abs/2410.23008">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
         description: | 
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Sung-Ju Lee, Fahim Kawsar, and Mohammad Malekzadeh
-          <br>*International Conference on Acoustics, Speech, & Signal Processing (**ICASSP 2025**)*
+          <br>*IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP 2025**)*
           <br>To Appear
           
       - layout: top
@@ -149,7 +149,7 @@ content:
         description: | 
           **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
           <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2024**)* (Acceptance Rate: 26.3%)
-          <br>🏆Best Paper Honorable Mention Award
+          <br>🏆Best Paper Honorable Mention Award (Top 5% among 4,028 submissions)
         
       - layout: top
         title: <a href="https://drive.google.com/file/d/1-BiQoibFFH0jtwmgSL7ONO34qROucz1Q/view?usp=sharing">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
@@ -165,7 +165,7 @@ content:
         link_text: 🌐Website
         description: | # this will include new lines to allow paragraphs
           Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
-          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC**)*
+          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC 2022**)*
 
       - layout: top
         title: Posters, Demos, and Workshop Papers
