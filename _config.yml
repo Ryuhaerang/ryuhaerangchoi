@@ -137,6 +137,8 @@ content:
           
       - layout: top
         title: <a href="https://arxiv.org/abs/2410.23008">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
+        link: https://github.com/nokia-bell-labs/audio-class-discovery
+        link_text: </>Code
         description: | 
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Sung-Ju Lee, Fahim Kawsar, and Mohammad Malekzadeh
           <br>*IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP 2025**)*
@@ -146,6 +148,8 @@ content:
         title: <a href="https://drive.google.com/file/d/1FwvhBpj6P_zRGltLUFfIUL3TAm9pPV9U/view?usp=sharing">&#34;FoodCensor&#58; Promoting Mindful Digital Food Content Consumption for People with Eating Disorders&#34;</a>
         link: https://nmsl.kaist.ac.kr/projects/foodcensor/
         link_text: 🌐Website
+        link: https://github.com/Ryuhaerang/FoodCensor
+        link_text: </>Code
         description: | 
           **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
           <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2024**)* (Acceptance Rate: 26.3%)
@@ -187,7 +191,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       **Reviewer** 
       <br>CSCW 22-24
-      <br>CHI 23-24
+      <br>CHI 23-25
       <br>DIS 24
       <br>DMLR@ICLR 24
       <br>**ACM CSCW Program Committee** 24
