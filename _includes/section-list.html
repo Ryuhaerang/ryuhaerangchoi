@@ -13,8 +13,8 @@
 
       <p class="no-print aditional-links">
         {% for link in item.additional_links %}
-          {% include a.html href=link.url class="" %}
-            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+          {% include a.html href=link.url class="link" %}
+            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i> {{ link.title }}
           </a>
         {% endfor %}
       </p>
