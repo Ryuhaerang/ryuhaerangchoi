@@ -75,8 +75,8 @@ content:
       <br>**Jul 2023** Research internship at Nokia Bell Labs, Cambridge, UK (Jul-Sep)
       <br>**Feb 2023** Student Chair at 2023 Google ExploreCSR Rising Stars Workshop 
       <br>**Nov 2022** Paper Presentation (#StressTrendmeter) at CSCW'22
-      <br>**Oct 2022** Paper (MetaSense++) published at IEEE TMC'22
-      <br>**Aug 2022** Student Steering Committee at 2022 Google ExploreCSR Women Tech Stars Workshop 
+#<br>**Oct 2022** Paper (MetaSense++) published at IEEE TMC'22
+#<br>**Aug 2022** Student Steering Committee at 2022 Google ExploreCSR Women Tech Stars Workshop 
 #<br> 2023 Google ExploreCSR Rising Stars Workshop on Feb 24
 #<br> 2022 Google ExploreCSR Women Tech Stars Workshop on Aug 26
 #<br>**June 2022** Demo (#StressTrendmeter) at MobiSys'22
@@ -162,16 +162,23 @@ content:
         
       - layout: top
         title: <a href="https://drive.google.com/file/d/1-BiQoibFFH0jtwmgSL7ONO34qROucz1Q/view?usp=sharing">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
-        link: https://nmsl.kaist.ac.kr/projects/stresstrendmeter/
-        link_text: 🌐Website
+        additional_links:
+          - title: Website
+            icon: fas fa-globe
+            url: https://nmsl.kaist.ac.kr/projects/stresstrendmeter/
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyunsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
           <br>*ACM Conference on Computer-Supported Cooperative Work and Social Computing (**ACM CSCW 2022**)*
 
       - layout: top
         title: <a href="https://drive.google.com/file/d/1kuMuNo6f0fggTSJfrjq_RozK192MHpUD/view?usp=sharing">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
-        link: https://nmsl.kaist.ac.kr/projects/metasense/
-        link_text: 🌐Website
+        additional_links:
+          - title: Website
+            icon: fas fa-globe
+            url: https://nmsl.kaist.ac.kr/projects/metasense/
+          - title: Code
+            icon: fas fa-code
+            url: https://github.com/TaesikGong/MetaSense_public
         description: | # this will include new lines to allow paragraphs
           Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
           <br>*IEEE Transactions on Mobile Computing (**IEEE TMC 2022**)*
@@ -183,7 +190,7 @@ content:
         title: <a href="https://drive.google.com/file/d/17iq_qG2wQQ954OkJL3FFBXJ5gkXKp0rW/view?usp=sharing">&#34;Pushing the Decision Boundaries&#58; Discovering New Classes in Audio Data&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Fahim Kawsar, and Mohammad Malekzadeh
-          <br>*ICLR 2024 &#45; Data-centric Machine Learning Research (DMLR) Workshop, 2024*
+          <br>* **ICML 2024** Data-centric Machine Learning Research (DMLR) Workshop*
       
       - layout: top
         title: <a href="https://drive.google.com/file/d/19Kt15dDvdF7hzn8ugnFrlHNTvSbZ49Kr/view?usp=sharing">&#34;Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support&#34;</a>
@@ -194,16 +201,18 @@ content:
   - title: Academic Services
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Reviewer** 
-      <br>CSCW 22-24
-      <br>CHI 23-25
-      <br>DIS 24
-      <br>DMLR@ICLR 24
-      <br>**ACM CSCW Program Committee** 24
+      **ACM CSCW Program Committee** 24
       <br>**ACM TEI Student Volunteer** 22
+      <br>**Reviewer** 
+      <br>&nbsp;CHI 23-25
+      <br>&nbsp;CSCW 22-24
+      <br>&nbsp;DIS 24
+      <br>&nbsp;CHI LBW 24-25
+      <br>&nbsp;DMLR@ICML 24
+      
       <br>**Steering Committee Member**
-      <br><a href="https://kaist-explorecsr.github.io/index.html">KAIST ExploreCSR (sponsored by Google Research)</a> '22 '23
-      <br><a href="https://hci.kaist.ac.kr">HCI@KAIST</a> '21 '22
+      <br>&nbsp;<a href="https://kaist-explorecsr.github.io/index.html">KAIST ExploreCSR (sponsored by Google Research)</a> '22 '23
+      <br>&nbsp;<a href="https://hci.kaist.ac.kr">HCI@KAIST</a> '21 '22
 
 #  - title: Research Interests and Projects
 #    layout: list
