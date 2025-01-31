@@ -138,7 +138,7 @@ content:
       - layout: top
         title: <a href="https://arxiv.org/abs/2410.23008">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
         link: https://github.com/nokia-bell-labs/audio-class-discovery
-        link_text: &#60;&#47;&#62;Code
+        link_text: <a href="https://github.com/nokia-bell-labs/audio-class-discovery">&#60;&#47;&#62;Code</a>
         description: | 
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Sung-Ju Lee, Fahim Kawsar, and Mohammad Malekzadeh
           <br>*IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP 2025**)*
