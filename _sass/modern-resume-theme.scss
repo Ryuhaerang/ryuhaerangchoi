@@ -193,7 +193,7 @@ p.quote {
 .additional-links {
   display: flex;
   flex-wrap: wrap; // Ensures links stay in one line unless the screen is too small
-  gap: 5px; // Adjust spacing between links
+  gap: 10px; // Adjust spacing between links
   align-items: center;
 }
 
@@ -201,7 +201,7 @@ p.quote {
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  gap: 3px; 
+  gap: 3px; // between icon and text
   font-size: 1.5rem; 
   font-style: italic;
   font-weight: 300;
