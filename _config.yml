@@ -148,7 +148,7 @@ content:
           <br>To Appear
           
       - layout: top
-        title: <a href="https://drive.google.com/file/d/1FwvhBpj6P_zRGltLUFfIUL3TAm9pPV9U/view?usp=sharing">&#34;FoodCensor&#58; Promoting Mindful Digital Food Content Consumption for People with Eating Disorders&#34;</a>
+        title: <a href="https://dl.acm.org/doi/abs/10.1145/3613904.3641984">&#34;FoodCensor&#58; Promoting Mindful Digital Food Content Consumption for People with Eating Disorders&#34;</a>
         additional_links:
           - title: Website
             icon: fas fa-globe
@@ -162,7 +162,7 @@ content:
           <br>🏆Best Paper Honorable Mention Award (Top 5% among 4,028 submissions)
         
       - layout: top
-        title: <a href="https://drive.google.com/file/d/1-BiQoibFFH0jtwmgSL7ONO34qROucz1Q/view?usp=sharing">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
+        title: <a href="https://dl.acm.org/doi/abs/10.1145/3555612">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
         additional_links:
           - title: Website
             icon: fas fa-globe
@@ -172,7 +172,7 @@ content:
           <br>*ACM Conference on Computer-Supported Cooperative Work and Social Computing (**ACM CSCW 2022**)*
 
       - layout: top
-        title: <a href="https://drive.google.com/file/d/1kuMuNo6f0fggTSJfrjq_RozK192MHpUD/view?usp=sharing">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
+        title: <a href="https://ieeexplore.ieee.org/abstract/document/9361223">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
         additional_links:
           - title: Website
             icon: fas fa-globe
@@ -194,7 +194,7 @@ content:
           <br>***ICML 2024** Data-centric Machine Learning Research (DMLR) Workshop*
       
       - layout: top
-        title: <a href="https://drive.google.com/file/d/19Kt15dDvdF7hzn8ugnFrlHNTvSbZ49Kr/view?usp=sharing">&#34;Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support&#34;</a>
+        title: <a href="https://dl.acm.org/doi/abs/10.1145/3498361.3538672">&#34;Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
           <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys 2022**)*
