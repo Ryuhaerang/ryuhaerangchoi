@@ -139,6 +139,9 @@ content:
       - layout: top
         title: <a href="https://arxiv.org/abs/2410.23008">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
         additional_links:
+          - title: Presentation
+            icon: fas fa-person-chalkboard
+            url: https://drive.google.com/file/d/1e5P373nTUTKnss4yQZeHSo7yhPVMFTqO/view?usp=share_link
           - title: Code
             icon: fas fa-code
             url: https://github.com/nokia-bell-labs/audio-class-discovery
