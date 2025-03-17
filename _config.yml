@@ -131,10 +131,13 @@ content:
         title: Conferences and Journals
       - layout: top
         title: <a href="https://drive.google.com/file/d/1buesT4genEnw3zRj6Tsxd0c8Xu8aUjbe/view?usp=sharing">&#34;Private Yet Social&#58; How LLM Chatbots Support and Challenge Eating Disorder Recovery&#34;</a>
+        additional_links:
+          - title: Website
+            icon: fas fa-globe
+            url: https://nmsl.kaist.ac.kr/projects/chatbot4ed/
         description: | 
           **Ryuhaerang Choi**, Taehan Kim, Subin Park, Jennifer G. Kim, and Sung-Ju Lee
           <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2025**)* (Acceptance Rate: 25.1%)
-          <br>To Appear
           
       - layout: top
         title: <a href="https://arxiv.org/abs/2410.23008">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
@@ -148,7 +151,6 @@ content:
         description: | 
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Sung-Ju Lee, Fahim Kawsar, and Mohammad Malekzadeh
           <br>*IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP 2025**)*
-          <br>To Appear
           
       - layout: top
         title: <a href="https://dl.acm.org/doi/abs/10.1145/3613904.3641984">&#34;FoodCensor&#58; Promoting Mindful Digital Food Content Consumption for People with Eating Disorders&#34;</a>
