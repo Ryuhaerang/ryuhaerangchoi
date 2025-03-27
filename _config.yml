@@ -66,7 +66,8 @@ content:
   - title: Latest News
     layout: text
     content: | # this will include new lines to allow paragraphs
-      **Feb 2025** Invited Talk at the SIGCHI-Sponsored Top Conference Session at HCI Korea
+      <br>**Mar 2025** Paper (Private Yet Social) Won a Best Paper Honorable Mention at CHI'25
+      <br>**Feb 2025** Invited Talk at the SIGCHI-Sponsored Top Conference Session at HCI Korea
       <br>**Jan 2025** Paper (Private Yet Social) Accepted at CHI'25
       <br>**Dec 2024** Paper (SoundCollage) Accepted at ICASSP'25
       <br>**Nov 2024** Invited Talk at Google ExploreCSR Journey of Research Workshop
@@ -75,7 +76,7 @@ content:
       <br>**Jan 2024** Paper (FoodCensor) Accepted at CHI'24
       <br>**Jul 2023** Research internship at Nokia Bell Labs, Cambridge, UK (Jul-Sep)
       <br>**Feb 2023** Student Chair at Google ExploreCSR Rising Stars Workshop
-      <br>**Nov 2022** Paper Presentation (#StressTrendmeter) at CSCW'22
+#<br>**Nov 2022** Paper Presentation (#StressTrendmeter) at CSCW'22
 #<br>**Oct 2022** Paper (MetaSense++) published at IEEE TMC'22
 #<br>**Aug 2022** Student Steering Committee at 2022 Google ExploreCSR Women Tech Stars Workshop 
 #<br> 2023 Google ExploreCSR Rising Stars Workshop on Feb 24
