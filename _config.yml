@@ -152,7 +152,7 @@ content:
             url: https://github.com/nokia-bell-labs/audio-class-discovery
         description: | 
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Sung-Ju Lee, Fahim Kawsar, and Mohammad Malekzadeh
-          <br>*IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP 2025**)*
+          <br>*IEEE International Conference on Acoustics, Speech, and Signal Processing (**IEEE ICASSP 2025**)*
           
       - layout: top
         title: <a href="https://dl.acm.org/doi/abs/10.1145/3613904.3641984">&#34;FoodCensor&#58; Promoting Mindful Digital Food Content Consumption for People with Eating Disorders&#34;</a>
@@ -204,7 +204,7 @@ content:
         title: <a href="https://dl.acm.org/doi/abs/10.1145/3498361.3538672">&#34;Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
-          <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys 2022**)*
+          <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys 2022 Demos**)*
 
   - title: Academic Services
     layout: text
@@ -214,7 +214,9 @@ content:
       <br>**Reviewer** 
       <br>&nbsp;CHI 23-25
       <br>&nbsp;CSCW 22-24
+      <br>&nbsp;IMWUT 25
       <br>&nbsp;DIS 24-25
+      <br>&nbsp;MobileHCI 25
       <br>&nbsp;CHI LBW 24-25
       <br>&nbsp;DMLR@ICML 24
       
