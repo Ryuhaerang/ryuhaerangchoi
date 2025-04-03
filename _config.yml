@@ -72,7 +72,7 @@ content:
       <br>**Dec 2024** Paper (SoundCollage) Accepted at ICASSP'25
       <br>**Nov 2024** Invited Talk at Google ExploreCSR Journey of Research Workshop
       <br>**May 2024** FoodCensor Won a Best Paper Honorable Mention at CHI'24
-      <br>**Mar 2024** Paper Accepted at ICLR Workshop'24
+      <br>**Mar 2024** Paper Accepted at ICML Workshop'24
       <br>**Jan 2024** Paper (FoodCensor) Accepted at CHI'24
       <br>**Jul 2023** Research internship at Nokia Bell Labs, Cambridge, UK (Jul-Sep)
       <br>**Feb 2023** Student Chair at Google ExploreCSR Rising Stars Workshop
@@ -142,7 +142,7 @@ content:
           <br>🏆Best Paper Honorable Mention Award (Top 5%)
           
       - layout: top
-        title: <a href="https://arxiv.org/abs/2410.23008">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
+        title: <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10890645">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
         additional_links:
           - title: Presentation
             icon: fas fa-video
