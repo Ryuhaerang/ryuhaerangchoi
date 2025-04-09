@@ -139,7 +139,7 @@ content:
         description: | 
           **Ryuhaerang Choi**, Taehan Kim, Subin Park, Jennifer G. Kim, and Sung-Ju Lee
           <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2025**)* (Acceptance Rate: 25.1%)
-          <br>🏆Best Paper Honorable Mention Award (Top 5%)
+          <br>🏅Best Paper Honorable Mention Award (Top 5%)
           
       - layout: top
         title: <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10890645">&#34;SoundCollage&#58; Automated Discovery of New Classes in Audio Datasets&#34;</a>
@@ -166,7 +166,7 @@ content:
         description: | 
           **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
           <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2024**)* (Acceptance Rate: 26.3%)
-          <br>🏆Best Paper Honorable Mention Award (Top 5%)
+          <br>🏅Best Paper Honorable Mention Award (Top 5%)
         
       - layout: top
         title: <a href="https://dl.acm.org/doi/abs/10.1145/3555612">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
@@ -224,56 +224,6 @@ content:
       <br>&nbsp;<a href="https://kaist-explorecsr.github.io/index.html">KAIST ExploreCSR (sponsored by Google Research)</a> '22 '23
       <br>&nbsp;<a href="https://hci.kaist.ac.kr">HCI@KAIST</a> '21 '22
 
-#  - title: Research Interests and Projects
-#    layout: list
-#    content:
-#      - layout: left
-#        title: Mobile HCI
-#        sub_title: mHCI
-#        description: | # this will include new lines to allow paragraphs
-#          Human-computer interection (HCI) studies the interaction between humans and computers including both HW and SW. One of the objectives of mHCI is to build a mobile system to improve the quality of human life.
-#      - layout: left
-#        title: Mobile Health
-#        sub_title: mHealth
-#        description: |
-#          Mobile healthcare industry has been in the limelight for years. mHealth is the term used for health-related service supported by mobile devices. The examples of mHealth applications are provision of medical information to patients, real-time monitoring of biometric signal, telemedicine, etc.
-#      - layout: left
-#        title: Ubiquitous Sensing
-#        description: | # this will include new lines to allow paragraphs
-#          Ubiquitous sensing means utilizing network-connected digital sensors in a given environment. We can detect amount of light, amplitude of sound, frequency of vibration, etc. The combination of ubiquitous sensing and ML can make objects around us intelligent.
-
-
-#      - layout: right
-#        title: Laon
-#        caption: Inha University's Startup Ideathon 2016 🏆
-#        description: |
-#          Laon is a Korean word meaning 'fun.' The Laon project was on display at Inha University's Startup Ideathon 2016 and won the **grand prize**. 
-#          The theme of Laon is educational VR content to overcome cultural differences between the two Koreas after reunification. 
-#          The economic and cultural gap between North and South Korea is widening long after Korea has been divided. 
-#          In a survey of North Korean defectors, they revealed that they have difficulties in their daily lives despite being educated to settle well in South Korea. 
-#          The number of crimes arising from the failure to adapt to the strange environment in South Korea is also increasing. 
-#          Based on this situation, we predicted difficulties that would arise in social harmony and maladjustment to each other's culture after the two Koreas' reunification. 
-#          To solve this problem, we also designed educational VR content that allows people from each Korea to experience each other's culture. We showcased one sample content at the contest.
-#      - layout: right
-#        title: I’m finally in fairy tale!
-#        caption: Capstone in Computer Scienc (B.S.)
-#        description: |
-          
-        
-#  - title: Research Projects
-#    layout: list
-#    content:
-#      - layout: left
-#        title: Project title
-#        sub_title: sub title
-#        caption: caption
-#        link: link
-#        quote: >
-#          Short description of the company (optional)
-#        description: | # this will include new lines to allow paragraphs
-#          Description
-
-# Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
