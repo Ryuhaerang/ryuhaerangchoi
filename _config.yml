@@ -66,6 +66,7 @@ content:
   - title: Latest News
     layout: text
     content: | # this will include new lines to allow paragraphs
+      <br>**May 2025** Paper Accepted at MobiSys Workshop'25
       <br>**Mar 2025** Paper (Private Yet Social) Won a Best Paper Honorable Mention at CHI'25
       <br>**Feb 2025** Invited Talk at the SIGCHI-Sponsored Top Conference Session at HCI Korea
       <br>**Jan 2025** Paper (Private Yet Social) Accepted at CHI'25
@@ -195,6 +196,12 @@ content:
         title: Posters, Demos, and Workshop Papers
 
       - layout: top
+        title: <a href="">&#34;CrashSniffer&#58; UWB-Based Anchor-Free Pedestrian Collision Prediction for Personal Mobility Vehicles&#34;</a>
+        description: | # this will include new lines to allow paragraphs
+          Taeckyung Lee, Juseung Lee, **Ryuhaerang Choi**, Seungjoo Lee, Hyeongheon Cha, Hyungjung Yoon, Song Min Kim, Sangwook Bak, Sung-Ju Lee
+          <br>**ACM MobiSys 2025** Environmental Sensing Systems for Smart Cities (EnvSys) Workshop*
+
+      - layout: top
         title: <a href="https://drive.google.com/file/d/17iq_qG2wQQ954OkJL3FFBXJ5gkXKp0rW/view?usp=sharing">&#34;Pushing the Decision Boundaries&#58; Discovering New Classes in Audio Data&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Fahim Kawsar, and Mohammad Malekzadeh
@@ -204,7 +211,7 @@ content:
         title: <a href="https://dl.acm.org/doi/abs/10.1145/3498361.3538672">&#34;Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
-          <br>*ACM International Conference on Mobile Systems, Applications, and Services, Portland, Oregon (**ACM MobiSys 2022 Demos**)*
+          <br>**ACM MobiSys 2022 Demos**
 
   - title: Academic Services
     layout: text
