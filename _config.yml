@@ -132,7 +132,7 @@ content:
       - layout: top
         title: Conferences and Journals
       - layout: top
-        title: <a href="https://drive.google.com/file/d/1buesT4genEnw3zRj6Tsxd0c8Xu8aUjbe/view?usp=sharing">&#34;Private Yet Social&#58; How LLM Chatbots Support and Challenge Eating Disorder Recovery&#34;</a>
+        title: <a href="https://dl.acm.org/doi/full/10.1145/3706598.3713485">&#34;Private Yet Social&#58; How LLM Chatbots Support and Challenge Eating Disorder Recovery&#34;</a>
         additional_links:
           - title: Website
             icon: fas fa-globe
