@@ -201,7 +201,7 @@ content:
         title: Posters, Demos, and Workshop Papers
 
       - layout: top
-        title: <a href="">&#34;CrashSniffer&#58; UWB-Based Anchor-Free Pedestrian Collision Prediction for Personal Mobility Vehicles&#34;</a>
+        title: <a href="https://dl.acm.org/doi/10.1145/3742460.3742982">&#34;CrashSniffer&#58; UWB-Based Anchor-Free Pedestrian Collision Prediction for Personal Mobility Vehicles&#34;</a>
         description: | # this will include new lines to allow paragraphs
           Taeckyung Lee, Juseung Lee, **Ryuhaerang Choi**, Seungjoo Lee, Hyeongheon Cha, Hyungjun Yoon, Song Min Kim, Sangwook Bak, Sung-Ju Lee
           <br>**ACM MobiSys 2025** *Environmental Sensing Systems for Smart Cities (EnvSys) Workshop*
