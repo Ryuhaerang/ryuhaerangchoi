@@ -234,13 +234,17 @@ content:
       **ACM CSCW Program Committee** 24
       <br>**ACM TEI Student Volunteer** 22
       <br>**Reviewer** 
-      <br>&nbsp;CHI 23-25
-      <br>&nbsp;CSCW 22-24
-      <br>&nbsp;IMWUT 25
-      <br>&nbsp;DIS 24-25
-      <br>&nbsp;MobileHCI 25
-      <br>&nbsp;CHI LBW 24-25
-      <br>&nbsp;DMLR@ICML 24
+      <br>&nbsp;**HCI**
+      <br>&nbsp;&nbsp;ACM CHI 23-25
+      <br>&nbsp;&nbsp;ACM CSCW 22-24
+      <br>&nbsp;&nbsp;ACM IMWUT 25
+      <br>&nbsp;&nbsp;ACM DIS 24-25
+      <br>&nbsp;&nbsp;ACM MobileHCI 25
+      <br>&nbsp;**Health**
+      <br>&nbsp;&nbsp;JMIR 25
+      <br>&nbsp;&nbsp;ACM HEALTH 25
+      <br>&nbsp;**AI/ML**
+      <br>&nbsp;&nbsp;DMLR@ICML 24
       
       <br>**Steering Committee Member**
       <br>&nbsp;<a href="https://kaist-explorecsr.github.io/index.html">KAIST ExploreCSR (sponsored by Google Research)</a> '22 '23
