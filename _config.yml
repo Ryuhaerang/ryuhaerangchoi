@@ -19,7 +19,7 @@ website: ryuhaerangchoi.com
 darkmode: false
 
 # Social links
-twitter_username: haerang_hci
+#twitter_username: haerang_hci
 github_username:  Ryuhaerang
 #stackoverflow_username: ""
 #dribbble_username:
@@ -149,6 +149,9 @@ content:
       - layout: top
         title: <a href="https://dl.acm.org/doi/full/10.1145/3706598.3713485">&#34;Private Yet Social&#58; How LLM Chatbots Support and Challenge Eating Disorder Recovery&#34;</a>
         additional_links:
+          - title: Presentation
+            icon: fas fa-video
+            url: https://youtu.be/eUKD5Sb6ytc?si=3XtbbSyLPenCM8mE
           - title: Website
             icon: fas fa-globe
             url: https://nmsl.kaist.ac.kr/projects/chatbot4ed/
@@ -173,6 +176,9 @@ content:
       - layout: top
         title: <a href="https://dl.acm.org/doi/abs/10.1145/3613904.3641984">&#34;FoodCensor&#58; Promoting Mindful Digital Food Content Consumption for People with Eating Disorders&#34;</a>
         additional_links:
+          - title: Presentation
+            icon: fas fa-video
+            url: https://youtu.be/2FYkHdRfV-0?si=-PsX2QC4ytjcrtI8
           - title: Website
             icon: fas fa-globe
             url: https://nmsl.kaist.ac.kr/projects/foodcensor/
@@ -187,6 +193,9 @@ content:
       - layout: top
         title: <a href="https://dl.acm.org/doi/abs/10.1145/3555612">&#34;You Are Not Alone&#58; How Trending Stress Topics Brought &#35;Awareness and &#35;Resonance on Campus&#34;</a>
         additional_links:
+          - title: Presentation
+            icon: fas fa-video
+            url: https://youtu.be/u_lSLpPVbFg?si=IiZNzxVLHMF3FpbR
           - title: Website
             icon: fas fa-globe
             url: https://nmsl.kaist.ac.kr/projects/stresstrendmeter/
@@ -234,17 +243,17 @@ content:
       **ACM CSCW Program Committee** 24
       <br>**ACM TEI Student Volunteer** 22
       <br>**Reviewer** 
-      <br>&nbsp;**HCI**
-      <br>&nbsp;&nbsp;ACM CHI 23-25
-      <br>&nbsp;&nbsp;ACM CSCW 22-24
-      <br>&nbsp;&nbsp;ACM IMWUT 25
-      <br>&nbsp;&nbsp;ACM DIS 24-25
-      <br>&nbsp;&nbsp;ACM MobileHCI 25
-      <br>&nbsp;**Health**
-      <br>&nbsp;&nbsp;JMIR 25
-      <br>&nbsp;&nbsp;ACM HEALTH 25
+      <br>&nbsp;&nbsp;**HCI**
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM CHI 23-26
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM CSCW 22-24
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM IMWUT 25
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM DIS 24-25
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM MobileHCI 25
+      <br>&nbsp;&nbsp;**Health**
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;JMIR 25
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM HEALTH 25
       <br>&nbsp;**AI/ML**
-      <br>&nbsp;&nbsp;DMLR@ICML 24
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;DMLR@ICML 24
       
       <br>**Steering Committee Member**
       <br>&nbsp;<a href="https://kaist-explorecsr.github.io/index.html">KAIST ExploreCSR (sponsored by Google Research)</a> '22 '23
