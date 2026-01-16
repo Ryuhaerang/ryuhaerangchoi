@@ -139,13 +139,14 @@ content:
           <br>arXiv (Under review)
 
       - layout: top
+        title: Conferences and Journals
+
+      - layout: top
         title: <a href="">&#34;Recovery Is Relational&#58; Everyday Support Needs in Eating Disorder Recovery with Patients <em>and</em> Their Supporters&#34;</a>
         description: | 
           **Ryuhaerang Choi**, Seohyeon Yoo, Xuhai "Orson" Xu, and Sung-Ju Lee
-          <br>(Under review)
-
-      - layout: top
-        title: Conferences and Journals
+          <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2026**)* (Acceptance Rate: 25.3%)
+        
       - layout: top
         title: <a href="https://dl.acm.org/doi/full/10.1145/3706598.3713485">&#34;Private Yet Social&#58; How LLM Chatbots Support and Challenge Eating Disorder Recovery&#34;</a>
         additional_links:
