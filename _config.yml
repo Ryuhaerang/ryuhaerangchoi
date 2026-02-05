@@ -69,15 +69,16 @@ content:
   - title: Latest News
     layout: text
     content: | # this will include new lines to allow paragraphs
-      <br>**May 2025** Paper Accepted at MobiSys Workshop'25
-      <br>**Mar 2025** Paper (Private Yet Social) Won a Best Paper Honorable Mention at CHI'25
+      <br>**Jan 2026** Paper (Recovery is Relational) Accepted at CHI '26
+      <br>**May 2025** Paper Accepted at MobiSys Workshop '25
+      <br>**Mar 2025** Paper (Private Yet Social) Won a Best Paper Honorable Mention at CHI '25
       <br>**Feb 2025** Invited Talk at the SIGCHI-Sponsored Top Conference Session at HCI Korea
-      <br>**Jan 2025** Paper (Private Yet Social) Accepted at CHI'25
-      <br>**Dec 2024** Paper (SoundCollage) Accepted at ICASSP'25
+      <br>**Jan 2025** Paper (Private Yet Social) Accepted at CHI '25
+      <br>**Dec 2024** Paper (SoundCollage) Accepted at ICASSP '25
       <br>**Nov 2024** Invited Talk at Google ExploreCSR Journey of Research Workshop
-      <br>**May 2024** FoodCensor Won a Best Paper Honorable Mention at CHI'24
-      <br>**Mar 2024** Paper Accepted at ICML Workshop'24
-      <br>**Jan 2024** Paper (FoodCensor) Accepted at CHI'24
+      <br>**May 2024** FoodCensor Won a Best Paper Honorable Mention at CHI '24
+      <br>**Mar 2024** Paper Accepted at ICML Workshop '24
+      <br>**Jan 2024** Paper (FoodCensor) Accepted at CHI '24
       <br>**Jul 2023** Research internship at Nokia Bell Labs, Cambridge, UK (Jul-Sep)
       <br>**Feb 2023** Student Chair at Google ExploreCSR Rising Stars Workshop
 #<br>**Nov 2022** Paper Presentation (#StressTrendmeter) at CSCW'22
@@ -248,10 +249,10 @@ content:
       <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM CHI 23-26
       <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM CSCW 22-24
       <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM IMWUT 25
-      <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM DIS 24-25
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM DIS 24-26
       <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM MobileHCI 25
       <br>&nbsp;&nbsp;**Health**
-      <br>&nbsp;&nbsp;&nbsp;&nbsp;JMIR 25
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;JMIR 25-26
       <br>&nbsp;&nbsp;&nbsp;&nbsp;ACM HEALTH 25
       <br>&nbsp;**AI/ML**
       <br>&nbsp;&nbsp;&nbsp;&nbsp;DMLR@ICML 24
