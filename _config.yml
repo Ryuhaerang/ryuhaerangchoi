@@ -52,7 +52,7 @@ linkedin_username: ryuhaerang-choi-75ba76233
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am Ryuhaerang Choi, a Ph.D. student in <a href="https://nmsl.kaist.ac.kr">Networking & Mobile Systems Lab</a> at <a href="https://www.kaist.ac.kr/en/">KAIST</a>, advised by Prof. <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>. 
+  I am Ryuhaerang Choi, a Ph.D. student in <a href="https://miil.kaist.ac.kr">Mobile Intelligence & Interaction Lab</a> at <a href="https://www.kaist.ac.kr/en/">KAIST</a>, advised by Prof. <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>. 
   My research centers around understanding individuals' behaviors reflecting cognitive processes and mental health. 
   I develop intervention systems to address mental health challenges based on this understanding.
   I aim to promote mental well-being and facilitate positive behavior changes through practical interventions, making a meaningful contribution towards building a healthier society.
