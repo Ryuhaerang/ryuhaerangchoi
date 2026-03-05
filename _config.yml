@@ -69,6 +69,7 @@ content:
   - title: Latest News
     layout: text
     content: | # this will include new lines to allow paragraphs
+      <br>**Mar 2026** Outstanding Dissertation Award from KAIST School of Electrical Engineering
       <br>**Jan 2026** Paper (Recovery is Relational) Accepted at CHI '26
       <br>**May 2025** Paper Accepted at MobiSys Workshop '25
       <br>**Mar 2025** Paper (Private Yet Social) Won a Best Paper Honorable Mention at CHI '25
@@ -98,10 +99,15 @@ content:
   - title: Education
     layout: list
     content:
+        - layout: top
+        title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
+        sub_title: Postdoctoral Researcher in Electrical Engineering, Advisor &#58; Prof. <a href="https://sites.google.com/site/wewantsj/"><b>Sung-Ju Lee</b></a>
+        caption: 2026.03 - Current
+  
       - layout: top
         title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
         sub_title: Ph.D. Candidate in Electrical Engineering, Advisor &#58; Prof. <a href="https://sites.google.com/site/wewantsj/"><b>Sung-Ju Lee</b></a>
-        caption: 2021.08 - Present
+        caption: 2021.08 - 2026.02 (Outstanding Dissertation Award, Top 1 in Computer Division)
     
       - layout: top
         title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
@@ -110,8 +116,8 @@ content:
           
       - layout: top
         title: <a href="https://eng.inha.ac.kr/eng/index.do">Inha University</a>, Republic of Korea
-        sub_title: B.S. in Computer Science (Summa Cum Laude)
-        caption: 2016.03 - 2019.08 (Early Graduation)  
+        sub_title: B.S. in Computer Science
+        caption: 2016.03 - 2019.08 (Summa Cum Laude, Early Graduation)  
 
   - title: Work Experience
     layout: list
