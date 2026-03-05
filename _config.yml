@@ -99,7 +99,7 @@ content:
   - title: Education
     layout: list
     content:
-        - layout: top
+      - layout: top
         title: <a href="https://www.kaist.ac.kr/en/">KAIST</a>, Republic of Korea
         sub_title: Postdoctoral Researcher in Electrical Engineering, Advisor &#58; Prof. <a href="https://sites.google.com/site/wewantsj/"><b>Sung-Ju Lee</b></a>
         caption: 2026.03 - Current
