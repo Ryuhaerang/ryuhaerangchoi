@@ -150,6 +150,13 @@ content:
 
       - layout: top
         title: <a href="https://dl.acm.org/doi/10.1145/3772318.3791262">&#34;Recovery is Relational&#58; Digital Support Needs for Patients and Supporters in Eating Disorder Recovery&#34;</a>
+        additional_links:
+          - title: Presentation
+            icon: fas fa-video
+            url: https://youtu.be/g2ne5c42UQI?si=XSQILZEYrEBhHrYG
+          - title: Website
+            icon: fas fa-globe
+            url: https://miil.kaist.ac.kr/projects/recoveryisrelational/
         description: | 
           **Ryuhaerang Choi**, Seohyeon Yoo, Xuhai "Orson" Xu, and Sung-Ju Lee
           <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2026**)* (Acceptance Rate: 25.3%)
