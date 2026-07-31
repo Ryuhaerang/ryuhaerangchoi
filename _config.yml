@@ -229,7 +229,7 @@ content:
             url: https://github.com/TaesikGong/MetaSense_public
         description: | # this will include new lines to allow paragraphs
           Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
-          <br>**IEEE TMC 2022** *IEEE Transactions on Mobile Computing *
+          <br>**IEEE TMC 2022** *IEEE Transactions on Mobile Computing*
 
       - layout: top
         title: Posters, Demos, and Workshop Papers
@@ -237,7 +237,7 @@ content:
       - layout: top
         title: <a href="https://drive.google.com/file/d/1TeyOKtxLOSxhOn-FgP9GDzegdwVH7Clt/view?usp=sharing">&#34;&#8220;Call Me Before I Open the Fridge&#8221;&#58; Designing Conversational Support for Binge Eating Risk in Solitary Eating&#34;</a>
         description: | # this will include new lines to allow paragraphs
-          Ryuhaerang Choi, Seohyeon Yoo, Sung-Ju Lee
+          **Ryuhaerang Choi**, Seohyeon Yoo, Sung-Ju Lee
           <br>**ACM UbiComp 2026 Poster** (To Appear)
 
       - layout: top
