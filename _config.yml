@@ -159,7 +159,7 @@ content:
             url: https://miil.kaist.ac.kr/projects/recoveryisrelational/
         description: | 
           **Ryuhaerang Choi**, Seohyeon Yoo, Xuhai "Orson" Xu, and Sung-Ju Lee
-          <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2026**)* (Acceptance Rate: 25.3%)
+          <br>**ACM CHI 2026** *ACM Conference on Human Factors in Computing Systems* (Acceptance Rate: 25.3%)
         
       - layout: top
         title: <a href="https://dl.acm.org/doi/full/10.1145/3706598.3713485">&#34;Private Yet Social&#58; How LLM Chatbots Support and Challenge Eating Disorder Recovery&#34;</a>
@@ -172,7 +172,7 @@ content:
             url: https://nmsl.kaist.ac.kr/projects/chatbot4ed/
         description: | 
           **Ryuhaerang Choi**, Taehan Kim, Subin Park, Jennifer G. Kim, and Sung-Ju Lee
-          <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2025**)* (Acceptance Rate: 25.1%)
+          <br>**ACM CHI 2025** *ACM Conference on Human Factors in Computing Systems* (Acceptance Rate: 25.1%)
           <br>🏅Best Paper Honorable Mention Award (Top 5%)
           
       - layout: top
@@ -186,7 +186,7 @@ content:
             url: https://github.com/nokia-bell-labs/audio-class-discovery
         description: | 
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Sung-Ju Lee, Fahim Kawsar, and Mohammad Malekzadeh
-          <br>*IEEE International Conference on Acoustics, Speech, and Signal Processing (**IEEE ICASSP 2025**)*
+          <br>**IEEE ICASSP 2025** *IEEE International Conference on Acoustics, Speech, and Signal Processing*
           
       - layout: top
         title: <a href="https://dl.acm.org/doi/abs/10.1145/3613904.3641984">&#34;FoodCensor&#58; Promoting Mindful Digital Food Content Consumption for People with Eating Disorders&#34;</a>
@@ -202,7 +202,7 @@ content:
             url: https://github.com/Ryuhaerang/FoodCensor
         description: | 
           **Ryuhaerang Choi**, Subin Park, Sujin Han, and Sung-Ju Lee
-          <br>*ACM Conference on Human Factors in Computing Systems (**ACM CHI 2024**)* (Acceptance Rate: 26.3%)
+          <br>**ACM CHI 2024** *ACM Conference on Human Factors in Computing Systems* (Acceptance Rate: 26.3%)
           <br>🏅Best Paper Honorable Mention Award (Top 5%)
         
       - layout: top
@@ -216,7 +216,7 @@ content:
             url: https://nmsl.kaist.ac.kr/projects/stresstrendmeter/
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyunsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
-          <br>*ACM Conference on Computer-Supported Cooperative Work and Social Computing (**ACM CSCW 2022**)*
+          <br>**ACM CSCW 2022** *ACM Conference on Computer-Supported Cooperative Work and Social Computing*
 
       - layout: top
         title: <a href="https://ieeexplore.ieee.org/abstract/document/9361223">&#34;Adapting to Unknown Conditions in Learning-based Mobile Sensing&#34;<a>
@@ -229,28 +229,34 @@ content:
             url: https://github.com/TaesikGong/MetaSense_public
         description: | # this will include new lines to allow paragraphs
           Taesik Gong, Yeonsu Kim, **Ryuhaerang Choi**, Jinwoo Shin, and Sung-Ju Lee
-          <br>*IEEE Transactions on Mobile Computing (**IEEE TMC 2022**)*
+          <br>**IEEE TMC 2022** *IEEE Transactions on Mobile Computing *
 
       - layout: top
         title: Posters, Demos, and Workshop Papers
 
       - layout: top
+        title: <a href="https://drive.google.com/file/d/1TeyOKtxLOSxhOn-FgP9GDzegdwVH7Clt/view?usp=sharing">&#34;&#8220;Call Me Before I Open the Fridge&#8221;&#58; Designing Conversational Support for Binge Eating Risk in Solitary Eating&#34;</a>
+        description: | # this will include new lines to allow paragraphs
+          Ryuhaerang Choi, Seohyeon Yoo, Sung-Ju Lee
+          <br>**ACM UbiComp 2026 Poster** (To Appear)
+
+      - layout: top
         title: <a href="https://dl.acm.org/doi/10.1145/3742460.3742982">&#34;CrashSniffer&#58; UWB-Based Anchor-Free Pedestrian Collision Prediction for Personal Mobility Vehicles&#34;</a>
         description: | # this will include new lines to allow paragraphs
           Taeckyung Lee, Juseung Lee, **Ryuhaerang Choi**, Seungjoo Lee, Hyeongheon Cha, Hyungjun Yoon, Song Min Kim, Sangwook Bak, Sung-Ju Lee
-          <br>**ACM MobiSys 2025** *Environmental Sensing Systems for Smart Cities (EnvSys) Workshop*
+          <br>**ACM MobiSys 2025 Workshop** *Environmental Sensing Systems for Smart Cities (EnvSys) Workshop*
 
       - layout: top
         title: <a href="https://drive.google.com/file/d/17iq_qG2wQQ954OkJL3FFBXJ5gkXKp0rW/view?usp=sharing">&#34;Pushing the Decision Boundaries&#58; Discovering New Classes in Audio Data&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Soumyajit Chatterjee, Dimitris Spathis, Fahim Kawsar, and Mohammad Malekzadeh
-          <br>**ICML 2024** *Data-centric Machine Learning Research (DMLR) Workshop*
+          <br>**ICML 2024 Workshop** *Data-centric Machine Learning Research (DMLR) Workshop*
       
       - layout: top
         title: <a href="https://dl.acm.org/doi/abs/10.1145/3498361.3538672">&#34;Facilitating Instant Interactions for Stressful Experiences Sharing and Peer Support&#34;</a>
         description: | # this will include new lines to allow paragraphs
           **Ryuhaerang Choi**, Chanwoo Yun, Hyungsung Cho, Hwajung Hong, Uichin Lee, and Sung-Ju Lee
-          <br>**ACM MobiSys 2022 Demos**
+          <br>**ACM MobiSys 2022 Demo**
 
   - title: Academic Services
     layout: text
