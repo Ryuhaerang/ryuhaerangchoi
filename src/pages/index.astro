@@ -1,0 +1,96 @@
+---
+import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+import Publication from '../components/Publication.astro';
+import News from '../components/News.astro';
+import ResearchHeadline from '../components/ResearchHeadline.astro';
+import NamePronunciation from '../components/NamePronunciation.astro';
+import { profile, aboutParagraphs, aboutLinks, publications, appointments, education } from '../data/site';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const title = `${profile.name} — Human-Centered Computing`;
+const publicationGroups = [
+  { category: 'preprint', title: 'Preprints & Under Review' },
+  { category: 'conference-journal', title: 'Conference and journal papers' },
+  { category: 'poster-demo-workshop', title: 'Posters, demos, and workshop papers' },
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Haerang (Ryuhaerang) Choi is a postdoctoral researcher at KAIST studying human-computer interaction, ubiquitous computing, and everyday well-being." />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&display=swap" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="page-shell">
+      <aside class="profile" aria-label="Profile and navigation">
+        <img class="portrait" src={`${base}/images/profile.jpg`} alt={profile.name} width="184" height="184" fetchpriority="high" />
+        <div class="identity">
+          <h1 aria-label={profile.name}><NamePronunciation /> (Ryuhaerang) Choi</h1>
+          <p class="role">{profile.role}</p>
+          <p class="affiliation"><a href="https://www.kaist.ac.kr/en/">{profile.affiliation}</a></p>
+        </div>
+        <div class="profile-links">
+          <a href={`mailto:${profile.email}`}><Icon name="email" /><span>{profile.email}</span></a>
+          <a href={profile.cvUrl}><Icon name="document" /><span>Curriculum Vitae</span></a>
+          <a href={profile.linkedinUrl}><Icon name="linkedin" /><span>LinkedIn</span></a>
+        </div>
+        <nav class="profile-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a class="news-nav-desktop" href="#news">News</a>
+          <a class="news-nav-mobile" href="#news-mobile">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+        </nav>
+        <News id="news" variant="sidebar" />
+      </aside>
+      <main id="main-content" tabindex="-1">
+        <header class="intro" id="about">
+          <ResearchHeadline />
+          <div class="intro-copy">
+            <p>I am <span class="about-name">Ryu<mark class="name-highlight">haerang</mark> Choi</span>, a postdoctoral researcher in the <a href={aboutLinks[0].url}>{aboutLinks[0].label}</a> at <a href={aboutLinks[1].url}>{aboutLinks[1].label}</a>, working with Prof. <a href={aboutLinks[2].url}>{aboutLinks[2].label}</a>.</p>
+            <p>{aboutParagraphs[1]}</p>
+            <p>{aboutParagraphs[2]}</p>
+          </div>
+          <div class="interests"><p><strong>Research interests</strong><br />{profile.researchInterests.join(' · ')}</p></div>
+        </header>
+
+        <News id="news-mobile" variant="mobile" />
+
+        <section class="content-section" id="publications" aria-labelledby="publications-heading">
+          <div class="section-heading">
+            <h2 id="publications-heading">Publications</h2>
+            <a class="text-link" href={profile.scholarUrl}>Google Scholar <Icon name="arrow" /></a>
+          </div>
+          {publicationGroups.map(group => (
+            <section class="publication-group" aria-labelledby={`${group.category}-heading`}>
+              <h3 class="publication-group-heading" id={`${group.category}-heading`}>{group.title}</h3>
+              <div class="publication-list">
+                {publications.filter(publication => publication.category === group.category).map(publication => <Publication publication={publication} />)}
+              </div>
+            </section>
+          ))}
+        </section>
+
+        <section class="content-section" id="experience" aria-label="Experience and education">
+          <div class="education-grid">
+            <div>
+              <div class="section-heading"><h2>Work Experience</h2></div>
+              {appointments.map(item => <article class="timeline-item"><p class="period">{item.period}</p><h3>{item.institution}</h3><p class="detail">{item.role}</p></article>)}
+            </div>
+            <div>
+              <div class="section-heading"><h2>Education</h2></div>
+              {education.map(item => <article class="timeline-item"><p class="period">{item.period}</p><h3>{item.institution}</h3><p class="detail">{item.degree}</p>{item.note && <p class="note">{item.note}</p>}</article>)}
+            </div>
+          </div>
+        </section>
+        <footer class="site-footer"><span>© {new Date().getFullYear()} Ryuhaerang Choi</span><a href="#about">Back to top ↑</a></footer>
+      </main>
+    </div>
+  </body>
+</html>
