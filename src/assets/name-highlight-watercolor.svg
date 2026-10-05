@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="wash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#adc696" stop-opacity=".55"/>
+      <stop offset=".36" stop-color="#a6c08f" stop-opacity=".68"/>
+      <stop offset=".72" stop-color="#aec79b" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#b8cda7" stop-opacity=".45"/>
+    </linearGradient>
+    <filter id="paper" x="-3" y="-2" width="106" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency=".15 .4" numOctaves="3" seed="12" result="edge"/>
+      <feDisplacementMap in="SourceGraphic" in2="edge" scale="3.4" xChannelSelector="R" yChannelSelector="G" result="pigment"/>
+      <feTurbulence type="fractalNoise" baseFrequency=".7 .9" numOctaves="3" seed="8" result="grain"/>
+      <feColorMatrix in="grain" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  .5 0 0 0 .5" result="paper-grain"/>
+      <feComposite in="pigment" in2="paper-grain" operator="in"/>
+    </filter>
+  </defs>
+  <g fill="none" stroke-linecap="round" filter="url(#paper)">
+    <path d="M7 11 C29 9 49 11 70 10 S86 9 93 10" stroke="url(#wash)" stroke-width="14"/>
+    <path d="M7 12 C28 10 48 13 70 11 S85 11 93 10" stroke="#9fb98b" stroke-opacity=".13" stroke-width="10"/>
+    <path d="M9 16 C26 15 37 16.7 53 15.9 S80 15.8 91 15" stroke="#9fb98b" stroke-opacity=".13" stroke-width="1.6"/>
+  </g>
+</svg>
