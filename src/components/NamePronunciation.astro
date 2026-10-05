@@ -1,0 +1,92 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<span class="name-pronunciation">
+  <button class="nickname pronunciation-button" type="button" aria-label="Hear Haerang pronounced in Korean" aria-pressed="false" aria-describedby="nickname-note">
+    Haerang<svg class="pronunciation-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M11 5 6 9H3v6h3l5 4Z"/><path class="sound-waves" d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/></svg>
+  </button>
+  <audio src={`${base}/audio/haerang-recorded.mp3`} preload="none" hidden></audio>
+  <span id="nickname-note" class="nickname-note" role="tooltip" hidden>
+    <svg class="coffee-doodle" xmlns="http://www.w3.org/2000/svg" width="28" height="34" viewBox="0 0 30 38" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 14Q14 11 23 14L21 29Q14 32 7 29Z M23 16C32 13 30 25 22 24 M4 33Q15 35 25 32 M11 10C7 6 16 5 12 1 M18 9C15 6 23 4 20 1"/><path d="M11 19C8 15 5 22 15 26C22 20 20 15 16 18L14 20Z"/></svg>
+    <span>Sounds a bit like <span class="coffee-name">“Hannah,”</span> at least to baristas.</span>
+  </span>
+  <span class="pronunciation-status" role="status" aria-live="polite"></span>
+</span>
+
+<style>
+  .name-pronunciation { display: inline-block; }
+  .pronunciation-button { position: relative; border: 0; padding: 0; background: none; font: inherit; font-weight: 650; letter-spacing: inherit; color: var(--accent); text-decoration: underline; text-decoration-color: var(--accent-underline); text-decoration-thickness: 1px; text-underline-offset: 4px; cursor: pointer; }
+  .pronunciation-icon { position: absolute; left: 0; top: -12px; width: 12px; height: 12px; opacity: .7; }
+  .pronunciation-button:hover { color: var(--accent-hover); }
+  .pronunciation-button:hover .pronunciation-icon, .pronunciation-button[aria-pressed="true"] .pronunciation-icon { opacity: 1; }
+  .pronunciation-button[aria-pressed="true"] { color: var(--accent-hover); text-decoration-color: currentColor; }
+  .nickname-note, .pronunciation-status { position: absolute; left: 0; top: calc(100% + 8px); z-index: 5; width: 200px; max-width: calc(100vw - 44px); white-space: normal; letter-spacing: 0; }
+  .nickname-note { display: flex; align-items: center; gap: 9px; padding: 10px 12px; border: 1px solid var(--accent-underline); border-radius: 5px 8px 6px 7px; color: var(--accent-hover); background: #fbfdf9; box-shadow: 0 3px 10px #263b2b0c; font-family: 'Caveat', 'Bradley Hand', 'Segoe Print', cursive; font-size: 22px; font-weight: 500; line-height: 1.05; transform: rotate(-1deg); transform-origin: 80% 0; animation: note-appear 180ms ease-out; }
+  .nickname-note[hidden] { display: none; }
+  .nickname-note::before { content: ''; position: absolute; right: 0; bottom: 100%; width: 100%; height: 10px; }
+  .coffee-doodle { flex: 0 0 28px; transform: rotate(5deg); }
+  .coffee-name { white-space: nowrap; font-weight: 600; text-decoration: underline; text-decoration-color: var(--accent-underline); text-decoration-style: wavy; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .pronunciation-status { font-size: 12px; line-height: 1.4; font-weight: 400; }
+  .pronunciation-status:not(:empty) { padding: 6px 8px; border: 1px solid var(--rule); border-radius: 4px; background: #fff; }
+  @keyframes note-appear { from { opacity: 0; translate: 0 -3px; } to { opacity: 1; translate: 0 0; } }
+  @media (prefers-reduced-motion: reduce) { .nickname-note { animation: none; } }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.name-pronunciation').forEach(control => {
+    const button = control.querySelector('button')!;
+    const audio = control.querySelector('audio')!;
+    const status = control.querySelector<HTMLElement>('.pronunciation-status')!;
+    const note = control.querySelector<HTMLElement>('.nickname-note')!;
+    const hideNote = () => {
+      note.hidden = true;
+    };
+    const showNote = () => {
+      note.hidden = false;
+    };
+    control.addEventListener('pointerleave', event => {
+      if (event.pointerType === 'mouse') hideNote();
+    });
+    control.addEventListener('focusout', event => {
+      if (event.relatedTarget instanceof Node && !control.contains(event.relatedTarget)) hideNote();
+    });
+    document.addEventListener('pointerdown', event => {
+      if (event.target instanceof Node && !control.contains(event.target)) hideNote();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') hideNote();
+    });
+    const reset = () => {
+      button.setAttribute('aria-pressed', 'false');
+      button.setAttribute('aria-label', 'Hear Haerang pronounced in Korean');
+    };
+    const reportError = () => {
+      reset();
+      hideNote();
+      status.textContent = 'Audio unavailable. Please try again.';
+    };
+
+    audio.addEventListener('playing', () => {
+      button.setAttribute('aria-pressed', 'true');
+      button.setAttribute('aria-label', 'Stop Haerang pronunciation');
+    });
+    audio.addEventListener('ended', reset);
+    audio.addEventListener('pause', reset);
+    audio.addEventListener('error', reportError);
+    button.addEventListener('click', async () => {
+      status.textContent = '';
+      showNote();
+      if (!audio.paused) {
+        audio.pause();
+        audio.currentTime = 0;
+        return;
+      }
+      try {
+        audio.currentTime = 0;
+        await audio.play();
+      } catch (error) {
+        if (!(error instanceof DOMException && error.name === 'AbortError')) reportError();
+      }
+    });
+  });
+</script>

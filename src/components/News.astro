@@ -1,0 +1,11 @@
+---
+import { news } from '../data/site';
+interface Props { id: string; variant: 'sidebar' | 'mobile'; }
+const { id, variant } = Astro.props;
+---
+<section class:list={['latest-news', `news-${variant}`]} id={id} aria-labelledby={`${id}-heading`}>
+  <h2 id={`${id}-heading`}>Latest news</h2>
+  <ul class="news-list">
+    {news.map(item => <li><time datetime={item.date}>{item.label}</time><span class="news-copy">{item.text}</span></li>)}
+  </ul>
+</section>

@@ -1,0 +1,112 @@
+---
+const doodles = [
+  { name: 'heart', strokes: [
+    'M0 31C7 31 15 29 23 21C29 15 34 8 29 4.5C24 1.2 18.7 6.4 18.4 11.5C18.3 13.1 17.7 13.7 17.1 11.9C15.3 6.5 10.5 6.4 8 10.5C2.8 19 16 34 28 31C33 29.75 35 26 33 24.5C31.5 23.375 29.5 24.5 29 26',
+  ] },
+  { name: 'clover', strokes: [
+    'M0 31C6 31 14 28 18 19',
+    'M18 19C12 21 5 17 7 12C9 7 16 11 18 19C15 12 17 4 23 6C28 8 22 16 18 19C25 15 32 17 29 23C27 28 20 25 18 19C21 27 15 33 11 28C7 24 13 20 18 19',
+  ] },
+  { name: 'smile', strokes: [
+    'M0 31C5 31 9 29 10 25C12 21 10 18 11 14C12 7 18 4 24 6C32 8 34 16 30 23C26 30 14 32 11 24C9 20 10 17 11 14',
+    'M16 15Q17 13 18 15', 'M25 14Q26 12 27 14', 'M16 22C19 26 25 25 28 20',
+  ] },
+  { name: 'sprout', strokes: [
+    'M0 31C5 31 12 33 16 28C19 25 17 20 19 16C21 10 26 7 32 7C33 14 25 21 19 16',
+    'M19 16C12 17 7 13 8 7C15 6 20 11 19 16',
+  ] },
+  { name: 'star', strokes: [
+    'M0 31C4 31 9 34 10 28C11 25 12 22 11 20C10 18 3 13 7 13C10 13 13 14 15 11C17 8 18 2 20 5C21 8 21 11 24 12C27 13 34 11 32 14C30 17 26 19 27 22C28 25 32 31 28 30C24 29 22 25 19 26C16 27 8 33 10 28',
+  ] },
+  { name: 'note', strokes: [
+    'M0 31C4 31 8 34 14 32C20 31 25 27 23 24C21 21 10 26 10 29C10 32 12 33 14 32',
+    'M23 24C23 19 25 12 27 7C28 3 30 3 29 7C28 12 36 10 35 16C34 20 32 22 28 23',
+  ] },
+  { name: 'sun', strokes: [
+    'M0 31C5 31 9 27 12 23C14 20 13 19 13 17C13 11 18 8 23 9C29 10 32 16 28 22C24 28 15 26 13 21C12 19 13 18 13 17',
+    'M21 6Q20 4 21 2.5', 'M29 9Q30 8 31 7', 'M32 17Q34 16 35 17', 'M28 25Q29 27 31 27',
+    'M21 28Q22 30 21 32', 'M12 26Q11 28 10 28', 'M10 17Q8 16 7 17', 'M13 9Q11 8 11 6',
+    'M17 16Q18 14.5 19 16', 'M23 16Q24 14.5 25 16', 'M18 20Q21 23 24 20',
+  ] },
+  { name: 'zzz', strokes: [
+    'M0 31C2 31 1 25 4 25C6 25 9 27 12 24Q13 23 12 25C10 27 7 29 5 30Q4 31 6 30C8 29 10 32 13 29',
+    'M14 16C17 13 20 17 23 15Q25 14 23 17C20 20 17 22 15 24Q14 25 16 24C19 22 22 26 25 22',
+    'M24 5C27 2 30 6 33 4Q35 3 33 6C30 10 26 13 24 15Q23 16 25 15C28 13 32 18 35 13',
+  ] },
+];
+const joinX = 264;
+const underline = `M3 32C62 27 148 28 198 31S246 31 ${joinX} 31`;
+// Shear every point and control point together to keep the joins smooth.
+// The heart already has its own asymmetric calligraphic lean.
+const shiftedPath = (stroke: string, name: string) => stroke.replace(/([MLCQ])([^MLCQ]+)/g, (_match, command: string, values: string) => {
+  const points = values.trim().split(/[\s,]+/).map(Number);
+  const coordinates = points.map((value, index) => index % 2 === 0
+    ? joinX + (name === 'heart' ? value : value * 0.9 + 0.16 * (31 - points[index + 1]))
+    : value);
+  return `${command}${coordinates.join(' ')}`;
+});
+---
+<h2 class="research-headline"><span class="headline-primary">Human-centered computing</span>{' for '}<button class="headline-accent" type="button" title="Draw a little surprise"><span class="headline-word">everyday well-being.</span><svg class="headline-flourish" viewBox="0 0 300 36" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path class="headline-underline" d={underline} /><g class="headline-doodles">{doodles.map(doodle => <g data-doodle={doodle.name}>{doodle.strokes.map(stroke => <path d={shiftedPath(stroke, doodle.name)} pathLength="1" />)}</g>)}</g></svg></button></h2>
+
+<script>
+  const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const flourishes = new Set<Animation>();
+  let staticTimeout: ReturnType<typeof setTimeout> | undefined;
+  const cancelFlourishes = () => {
+    flourishes.forEach(animation => animation.cancel());
+    flourishes.clear();
+    clearTimeout(staticTimeout);
+    document.querySelectorAll('.headline-doodles .is-static').forEach(drawing => drawing.classList.remove('is-static'));
+  };
+  motionPreference.addEventListener('change', cancelFlourishes);
+
+  document.querySelectorAll<HTMLButtonElement>('.headline-accent').forEach(button => {
+    const drawings = Array.from(button.querySelectorAll<SVGGElement>('[data-doodle]'));
+    let nextDrawing = 0;
+
+    button.addEventListener('click', () => {
+      cancelFlourishes();
+      const drawing = drawings[nextDrawing];
+      if (!drawing) return;
+      nextDrawing = (nextDrawing + 1) % drawings.length;
+      if (motionPreference.matches) {
+        drawing.classList.add('is-static');
+        staticTimeout = setTimeout(() => drawing.classList.remove('is-static'), 1600);
+        return;
+      }
+
+      let drawTime = 0;
+      const strokes = Array.from(drawing.querySelectorAll('path')).map(path => {
+        const duration = Math.min(850, Math.max(65, path.getTotalLength() / 0.28));
+        const start = drawTime;
+        drawTime += duration;
+        return { path, start, end: drawTime };
+      });
+      const holdTime = 650;
+      const rewindRate = 0.85;
+      const duration = drawTime + holdTime + drawTime * rewindRate;
+      const startedAt = document.timeline.currentTime;
+      const track = (animation: Animation) => {
+        animation.startTime = startedAt;
+        flourishes.add(animation);
+        animation.onfinish = () => flourishes.delete(animation);
+      };
+
+      // Only these appended strokes rewind. The original underline never animates.
+      strokes.forEach(({ path, start, end }) => {
+        const eraseStart = drawTime + holdTime + (drawTime - end) * rewindRate;
+        const eraseEnd = drawTime + holdTime + (drawTime - start) * rewindRate;
+        track(path.animate([
+          { strokeDashoffset: '1', opacity: 0, offset: 0 },
+          { strokeDashoffset: '1', opacity: 0, offset: start / duration },
+          { strokeDashoffset: '1', opacity: 0.9, offset: start / duration },
+          { strokeDashoffset: '0', opacity: 0.9, offset: end / duration },
+          { strokeDashoffset: '0', opacity: 0.9, offset: eraseStart / duration },
+          { strokeDashoffset: '1', opacity: 0.9, offset: eraseEnd / duration },
+          { strokeDashoffset: '1', opacity: 0, offset: eraseEnd / duration },
+          { strokeDashoffset: '1', opacity: 0, offset: 1 },
+        ], { duration, easing: 'linear' }));
+      });
+    });
+  });
+</script>
