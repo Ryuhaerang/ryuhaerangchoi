@@ -65,10 +65,11 @@ main { min-width: 0; }
 .headline-accent:active { color: var(--ink); }
 .headline-doodles path { stroke-dasharray: 1; stroke-dashoffset: 1; opacity: 0; }
 .headline-doodles .is-static path { stroke-dashoffset: 0; opacity: 0.9; }
-.intro-copy { max-width: 90ch; }
+.intro-copy { max-width: none; }
 .intro-copy p:last-child { margin-bottom: 0; }
 .about-name { white-space: nowrap; }
-.name-highlight { padding: 0; color: inherit; background: none; text-decoration: underline; text-decoration-color: var(--accent-underline); text-decoration-thickness: 2px; text-underline-offset: 3px; text-decoration-skip-ink: auto; }
+.name-highlight { --name-marker: url("../assets/name-highlight-watercolor.svg"); position: relative; isolation: isolate; padding: 0; color: inherit; background: none; text-decoration: none; }
+.name-highlight::before { content: ''; position: absolute; z-index: -1; left: -0.055em; right: -0.055em; bottom: -0.04em; height: 1.15em; background: var(--name-marker) center / 100% 100% no-repeat; pointer-events: none; }
 .interests { margin-top: 20px; color: #536159; font-size: 16px; line-height: 1.5; }
 .interests p { margin-bottom: 0; }
 .interests strong { color: #3c4956; }
