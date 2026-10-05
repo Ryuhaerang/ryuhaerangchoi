@@ -4,10 +4,10 @@ Ryuhaerang Choi의 개인 학술 홈페이지 개편 프로젝트.
 
 ## 현재 단계
 
-GitHub 비공개 저장소와 로컬 작업 폴더를 준비했습니다. 웹사이트 구현 및 배포 설정은 아직 시작하지 않았습니다.
+GitHub 공개 저장소와 로컬 작업 폴더를 준비했습니다. 웹사이트 구현 및 배포 설정은 아직 시작하지 않았습니다.
 
-- GitHub 저장소: https://github.com/Ryuhaerang/academic-website
-- 공개 범위: **Private** — 사용자 선택
+- GitHub 저장소: https://github.com/Ryuhaerang/academic-website-working
+- 공개 범위: **Public** — 사용자 선택
 - 기존 홈페이지: https://ryuhaerang.github.io/ryuhaerangchoi/
 - 기존 소스: https://github.com/Ryuhaerang/ryuhaerangchoi
 
@@ -38,7 +38,7 @@ GitHub 비공개 저장소와 로컬 작업 폴더를 준비했습니다. 웹사
 
 ## 진행 순서
 
-1. 비공개 GitHub 저장소 생성 및 로컬 저장소 연결.
+1. 공개 GitHub 저장소 생성 및 로컬 저장소 연결.
 2. Astro 개발 환경과 최소 홈 페이지 준비.
 3. 공통 메뉴·서체·여백과 반응형 레이아웃 구현.
 4. 검증된 소개·논문·뉴스·경력 콘텐츠 이관.
@@ -47,9 +47,8 @@ GitHub 비공개 저장소와 로컬 작업 폴더를 준비했습니다. 웹사
 
 ## 배포 검토
 
-비공개 저장소에서 GitHub Pages를 사용하려면 지원되는 요금제가 필요합니다.
-개인 계정은 GitHub Pro 여부를 배포 단계에서 확인합니다.
-소스 저장소의 비공개 여부와 방문자가 보는 홈페이지의 공개 여부는 별개입니다.
+공개 저장소는 GitHub Free에서도 GitHub Pages를 사용할 수 있습니다.
+웹사이트 배포 설정은 구현과 미리보기 검토 후 진행합니다.
 
 - Astro GitHub Pages 배포: https://docs.astro.build/en/guides/deploy/github/
 - GitHub Pages 이용 조건: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
