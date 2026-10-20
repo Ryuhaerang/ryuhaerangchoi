@@ -89,9 +89,11 @@ export type Publication = {
   category: PublicationCategory;
   title: string;
   authors?: string;
+  authorNote?: string;
   venue?: string;
   year?: number;
   url?: string;
+  urlLabel?: string;
   award?: string;
   status?: string;
   links?: { label: string; url: string }[];
@@ -212,10 +214,11 @@ export const publications: Publication[] = [
     thumbnail: { src: '/images/publications/soundcollage.png', alt: 'Audio class discovery pipeline from the SoundCollage project' },
     category: 'poster-demo-workshop',
     title: 'Pushing the Decision Boundaries: Discovering New Classes in Audio Data',
-    authors: 'Ryuhaerang Choi, Soumyajit Chatterjee, Dimitris Spathis, Fahim Kawsar, and Mohammad Malekzadeh',
+    authors: 'Ryuhaerang Choi, Soumyajit Chatterjee, Dimitris Spathis, Sung-Ju Lee, Fahim Kawsar, and Mohammad Malekzadeh',
     venue: 'ICML · DMLR Workshop',
     year: 2024,
     url: 'https://drive.google.com/file/d/17iq_qG2wQQ954OkJL3FFBXJ5gkXKp0rW/view?usp=sharing',
+    urlLabel: 'Poster',
   },
   {
     id: 'facilitating-instant-interactions',
@@ -257,7 +260,8 @@ export const publications: Publication[] = [
     id: 'multimodal-eating-disorder-dataset',
     category: 'preprint',
     title: 'Topic: A Multimodal Dataset for Eating Disorder Symptom Detection and Prediction',
-    authors: 'Ryuhaerang Choi, Seohyeon Yoo, Taeckyung Lee, Uichin Lee, and Sung-Ju Lee',
+    authors: 'Ryuhaerang Choi*, Seohyeon Yoo*, Taeckyung Lee, Uichin Lee, and Sung-Ju Lee',
+    authorNote: '* Equal contribution (co-first authors)',
     status: 'Under review',
   },
 ];
