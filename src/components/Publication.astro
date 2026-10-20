@@ -23,7 +23,7 @@ const citation = [publication.venue, citationYear].filter(value => value !== und
     {(citation || publication.status) && <p class="venue">{citation}{publication.status && <span class="publication-status">{citation && ' · '}{publication.status}</span>}</p>}
     {(publication.url || publication.links?.length) && <div class="publication-links" aria-label={`Resources for ${publication.title}`}>
       {publication.url && <a href={publication.url}>{publication.urlLabel ?? 'Paper'}</a>}
-      {publication.links?.map(link => <a href={link.url}>{link.label}</a>)}
+      {publication.links?.map(link => <a href={/^\/(?!\/)/.test(link.url) ? `${base}${link.url}` : link.url}>{link.label}</a>)}
     </div>}
   </div>
 </article>
