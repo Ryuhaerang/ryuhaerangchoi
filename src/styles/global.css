@@ -85,6 +85,7 @@ main { min-width: 0; }
 .news-list li { display: grid; gap: 2px; padding: 6px 0; }
 .news-list time { color: var(--muted); font-size: 12px; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .news-copy { min-width: 0; }
+.publication-note { margin: -10px 0 18px; color: var(--muted); font-size: 14px; line-height: 1.4; }
 .publication-group + .publication-group { margin-top: 30px; }
 .publication-group-heading { margin: 0 0 19px; padding-left: 12px; border-left: 3px solid var(--accent); color: var(--accent); font-size: 18px; font-weight: 600; line-height: 1.4; }
 .publication-list { container-type: inline-size; margin: 0; padding: 0; }
