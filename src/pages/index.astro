@@ -67,6 +67,7 @@ const publicationGroups = [
             <h2 id="publications-heading">Publications</h2>
             <a class="text-link" href={profile.scholarUrl}>Google Scholar <Icon name="arrow" /></a>
           </div>
+          <p class="publication-note">* Equal contribution</p>
           {publicationGroups.map(group => (
             <section class="publication-group" aria-labelledby={`${group.category}-heading`}>
               <h3 class="publication-group-heading" id={`${group.category}-heading`}>{group.title}</h3>
