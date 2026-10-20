@@ -89,7 +89,6 @@ export type Publication = {
   category: PublicationCategory;
   title: string;
   authors?: string;
-  authorNote?: string;
   venue?: string;
   year?: number;
   url?: string;
@@ -261,7 +260,6 @@ export const publications: Publication[] = [
     category: 'preprint',
     title: 'Topic: A Multimodal Dataset for Eating Disorder Symptom Detection and Prediction',
     authors: 'Ryuhaerang Choi*, Seohyeon Yoo*, Taeckyung Lee, Uichin Lee, and Sung-Ju Lee',
-    authorNote: '* Equal contribution (co-first authors)',
     status: 'Under review',
   },
 ];
