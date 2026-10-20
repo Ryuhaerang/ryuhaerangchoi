@@ -197,6 +197,9 @@ export const publications: Publication[] = [
     year: 2026,
     url: 'https://drive.google.com/file/d/1TeyOKtxLOSxhOn-FgP9GDzegdwVH7Clt/view?usp=sharing',
     status: 'To appear',
+    links: [
+      { label: 'Poster', url: '/resource/posters/choi2026call-poster.pdf' },
+    ],
   },
   {
     id: 'crashsniffer',
